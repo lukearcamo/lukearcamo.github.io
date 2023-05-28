@@ -22,23 +22,23 @@ document.querySelectorAll("a.fancy-link:not(#backToTop), #logo").forEach(item =>
     });
 });
 
-// window.addEventListener("pageshow", e => {
-//     if (e.persisted) {
-//         console.log("Persisted");
-//         fade.style.left = "";
-//         fade.style.top = "";
+window.addEventListener("pageshow", e => {
+    if (e.persisted) {
+        console.log("Persisted");
+        fade.style.left = "";
+        fade.style.top = "";
 
-//         fade.style.animationName = "";
-//         fade.style.animationDuration = "";
-//         fade.style.animationTimingFunction = "";
+        fade.style.animationName = "";
+        fade.style.animationDuration = "";
+        fade.style.animationTimingFunction = "";
         
-//         fade.style.borderRadius = "";
-//         fade.style.width = "";
-//         fade.style.height = "";
+        fade.style.borderRadius = "";
+        fade.style.width = "";
+        fade.style.height = "";
 
-//         fade.style.backgroundColor = "";
-//     }
-// });
+        fade.style.backgroundColor = "";
+    }
+});
 
 document.getElementById("backToTop").addEventListener("click", e => {
     e.preventDefault();
