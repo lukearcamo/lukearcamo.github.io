@@ -5,7 +5,7 @@ category: book-reviews
 tags: scifi mystery crime space thriller dystopian sociology speculative
 background-color: "#368991"
 ---
-★★★☆☆ — Centuries in the future, a New York detective partners with a robot to solve the murder of a prominent Spacer, an inhabitant of the Outer Worlds. As he confronts his own prejudices against Spacers and robots, he begins to see injustice within his own Earth cities.<br><br> Asimov was a biochemist and leading author in scifi. He wanted to demonstrate the versatility of sci-fi by combining it with another genre: detective stories. He also pioneered social science fiction and the Three Laws of Robotics. His work continues to have an impact today. 
+★★★★☆ — Centuries in the future, a New York detective partners with a robot to solve the murder of a prominent Spacer, an inhabitant of the Outer Worlds. As he confronts his own prejudices against Spacers and robots, he begins to see injustice within his own Earth cities.<br><br> Asimov was a biochemist and leading author in scifi. He wanted to demonstrate the versatility of sci-fi by combining it with another genre: detective stories. He also pioneered social science fiction and the Three Laws of Robotics. His work continues to have an impact today. 
 
 <!--split-->
 
