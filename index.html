@@ -84,10 +84,9 @@
         
             <section class="articles">
                 <div>
-                    <h2><a class="fancy-link from-left" href="/articles/latest">Articles →</a></h2>
+                    <h2><a class="fancy-link from-left" href="/articles">Articles →</a></h2>
                     <hr>
                     <p>Coding discussions, book reviews, and engineering textbook notes.</p>
-                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/categories">Posts by categories →</a></h3>
                     <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/tags">Posts by tags →</a></h3>
                 </div>
                 <div>
@@ -97,6 +96,7 @@
                         <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
                         {{ post.excerpt }}
                     {% endfor %}
+                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/latest">Older posts →</a></h3>
                 </div>
             </section>
 
