@@ -1,0 +1,10 @@
+---
+layout: articles_list
+title: "Book Reviews"
+---
+{% for post in site.categories.book-reviews %}
+    <section>
+        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
+        {{ post.excerpt }}
+    </section>
+{% endfor %}

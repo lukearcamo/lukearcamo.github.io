@@ -1,0 +1,178 @@
+---
+---
+@import "base";
+// @import "glitch";
+
+header {
+    background-color: $off-white;
+    height: 100vh;
+
+    overflow: hidden;
+
+    .giant {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        margin: 0 0 -0.1em -0.06em;
+        line-height: 0.85em;
+
+        font-size: 20vw;
+        font-family: Poppins;
+
+        animation: {
+            name: slide-in-bottom;
+            // delay: 0.5s;
+            duration: 2s;
+            timing-function: ease-in-out;
+            fill-mode: both;
+        }
+    }
+    .subtitle {
+        position: absolute;
+        // top: 20%;
+        top: 0;
+        right: 0;
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+        font-weight: bold;
+        font-size: 60px;
+        font-family: Times;
+        text-align: right;
+        list-style-type: none;
+
+        @for $i from 1 through 5 {
+            li:nth-child(#{$i}) {
+                animation: {
+                    name: slide-in-right;
+                    delay: 1s + 0.25s * $i;
+                    duration: 1s;
+                    timing-function: ease-out;
+                    fill-mode: both;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+        height: 90vh; /* Find better fix for bottom bar height issues in webkit/ios safari*/
+        .giant {
+            font-size: 23vw;
+        }
+        .subtitle {
+            // top: 30%;
+            top: 0;
+            font-size: 40px;
+        }
+    }
+}
+
+main {
+    padding: 0;
+}
+
+section {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    // align-items: center;
+
+    padding: 5%;
+    box-sizing: border-box;
+
+    h2:first-child {
+        margin-top: 0;
+    }
+    div {
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 400px;
+
+        padding: 20px;
+        box-sizing: border-box;
+
+        blockquote {
+            font-size: 30px;
+            font-family: Times;
+            @media (max-width: 800px) {
+                font-size: 20px;
+            }
+        }
+    }
+    // &:nth-child(odd) { flex-direction: row-reverse; }
+    // &:nth-child(even) { flex-direction: row; }
+}
+
+.about {
+    padding: 5% 20%;
+
+    color: $off-white;
+    background-color: black;
+
+    @media (max-width: 800px) {
+        padding: 5% 5%;
+    }
+}
+.art {
+    color: black;
+    background-color: $off-white;
+    
+    div:nth-child(2) {
+        display: flex;
+        flex-flow: row wrap;
+
+        img {
+            display: block;
+            width: 48%;
+            padding: 1%;
+        }
+    }
+}
+.code {
+    color: black;
+    background-color: $dark-white;
+
+    .languages-list {
+        padding: 0;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: start;
+
+        list-style-type: none;
+
+        li {
+            width: 100px;
+            
+            display: block;
+            padding: 10px;
+
+            font-size: 16px;
+            font-family: Poppins;
+            line-height: 1em;
+            text-align: center;
+
+            img { width: 100%; }
+        }
+    }
+}
+.articles {
+    // padding: 5% 20%;
+
+    color: black;
+    background-color: $off-white;
+
+    .articles-list-links { margin: 0; }
+}
+.book-reviews {
+    color: black;
+    background-color: $dark-white;
+
+    .articles-list-links { margin: 0; }
+}

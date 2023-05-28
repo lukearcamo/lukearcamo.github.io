@@ -1,0 +1,355 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);
+
+// ================================================================================================================================
+// Colors
+// ================================================================================================================================
+
+@import "colors";
+
+// ================================================================================================================================
+// Keyframes
+// ================================================================================================================================
+
+@keyframes slide-in-left {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+@keyframes slide-in-right {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+@keyframes slide-in-top {
+    from { transform: translateY(-200%); }
+    to { transform: translateY(0); }
+}
+@keyframes slide-in-bottom {
+    from { transform: translateY(200%); }
+    to { transform: translateY(0); }
+}
+
+// ================================================================================================================================
+// Resets for pesky default html tag styles
+// ================================================================================================================================
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 75px 20% 5% 20%;
+
+    position: relative; // required in order to have children with position: absolute
+    box-sizing: border-box;
+
+    @media (max-width: 800px) {
+        padding: 75px 5% 5% 5%;
+    }
+}
+
+main {
+    width: 100%;
+    display: block;
+
+    /*
+    without the top padding, the headings' top margin creates a gap due to collapsing margins:
+    https://stackoverflow.com/questions/13573653/css-margin-terror-margin-adds-space-outside-parent-element
+    bruh this feature is so dumb i hate this feature why does it exist
+    things are so much easier to control when they behave consistently not silent and automatically 
+    */
+    padding: 1px 20% 5% 20%; 
+    box-sizing: border-box;
+    
+    @media (max-width: 800px) {
+        padding: 1px 5% 5% 5%;
+    }
+}
+
+hr { border: 1px solid black; }
+
+details summary { cursor: pointer; }
+
+// ================================================================================================================================
+// Global text styles + resets
+// ================================================================================================================================
+
+h1 {
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 80px;
+    font-family: Poppins;
+    line-height: 1em;
+
+    word-wrap: break-word;
+    // hyphens: auto;
+
+    // border: 1px dotted red;
+}
+h2 {
+    margin: 1em 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-size: 40px;
+    font-family: Poppins;
+    line-height: 1em;
+
+    // border: 1px dotted green;
+}
+h3 {
+    margin: 1em 0 0 0;
+    box-sizing: border-box;
+
+    font-size: 25px;
+    font-family: Poppins;
+    line-height: 1em;
+
+    // border: 1px dotted blue;
+}
+p, ul, ol, details {
+    font-size: 20px;
+    // font-family: Garamond;
+    font-family: Times;
+    line-height: 1.5em;
+
+    // border: 1px dotted yellow;
+}
+@media (max-width: 800px) {
+    h1 { font-size: 50px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 20px; }
+    p, ul, ol, details { font-size: 16px; }
+}
+
+// ================================================================================================================================
+
+.fade {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: black;
+
+    pointer-events: none;
+    z-index: 10;
+
+    @keyframes fade-out {
+        from { opacity: 1 }
+        to { opacity: 0 }
+    }
+    @keyframes grow {
+        from { transform: translate(-50%, -50%) scale(0) }
+        to { transform: translate(-50%, -50%) scale(250%) }
+    }
+    animation: {
+        name: fade-out;
+        duration: 1s;
+        timing-function: linear;
+        fill-mode: both;
+    }
+}
+
+.fancy-link {
+    display: inline-block;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    line-height: 1.5em;
+
+    color: currentColor;
+
+    background: linear-gradient(currentColor 0%, currentColor 100%);
+    background-repeat: no-repeat;
+    background-size: 0 0.3em; // var(--thickness)
+    background-origin: content-box;
+
+    cursor: pointer;
+
+    transition: background-size 0.25s;
+    &:hover, &:active {
+        background-size: 100% 0.3em; // var(--thickness)
+    }
+    &.from-left { background-position: 0% 100%; }
+    &.from-right { background-position: 100% 100%; }
+}
+
+.text-link {
+    color: $linkColor;
+    font-weight: bold;
+    &:visited { color: $visitedLinkColor; }
+
+    @extend .fancy-link;
+    @extend .from-left;
+}
+
+// ================================================================================================================================
+// Navbar, plus other special lists
+// ================================================================================================================================
+
+#logo, #hamburger {
+    display: block;
+    position: absolute;
+    top: 0;
+
+    padding: 15px;
+    margin: 0;
+
+    color: currentColor;
+    line-height: 1em;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+    &:hover { transform: scale(1.3); }
+
+    animation: {
+        name: slide-in-top;
+        duration: 2s;
+        fill-mode: none; // so that transition can still work
+    }
+
+    svg {
+        height: 1.5em;
+        fill: currentColor;
+    }
+}
+#logo {
+    left: 0;
+    font-size: 30px;
+}
+#hamburger {
+    right: 0;
+    font-size: 45px;
+    &.opened { color: black; }
+}
+#modal {
+    width: 500px;
+    height: 500px;
+
+    position: absolute;
+    top: 38px;
+    right: 38px;
+
+    border-radius: 50%;
+
+    background-color: $off-white;
+
+    transform: translate(50%, -50%) scale(0);
+
+    &.opened {
+        transform: translate(50%, -50%) scale(1);
+        transition: transform 0.5s;
+    }
+    &.closed {
+        transform: translate(50%, -50%) scale(0);
+        transition: transform 0.5s ease 0.25s;
+    }
+}
+@media (min-width: 800px) { // note: min-width
+    #hamburger, #modal {
+        display: none;
+    }
+}
+
+#navbar { //, #contact-info
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 30px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: end;
+    justify-content: right;
+    align-items: flex-end;
+
+    li {
+        display: block;
+        width: fit-content;
+
+        padding: 0 0.5em;
+        border-left: 2px solid currentColor;
+        &:first-of-type { border: none; }
+        
+        font-weight: bold;
+    }
+    @media (max-width: 800px) {
+        flex-flow: column wrap;
+        li { border: none; }
+    }
+}
+#navbar {
+    position: absolute;
+    top: 15px;
+    right: 0;
+
+    animation: {
+        name: slide-in-top;
+        duration: 2s;
+        fill-mode: both;
+    }
+    
+    @media (max-width: 800px) {
+        top: 2em;
+        color: black;
+
+        li {
+            transform: translate(100%);
+            $num-items: 4;
+            @for $i from 1 through $num-items {
+                &.opened:nth-child(#{$i}) {
+                    transform: translate(0);
+                    transition: transform 0.5s ease 0.05s * $i;
+                }
+                &.closed:nth-child(#{$i}) {
+                    transform: translate(100%);
+                    transition: transform 0.5s ease 0.05s * ($num-items - 1 - $i);
+                }
+            }
+        }
+    }
+}
+
+// ================================================================================================================================
+
+footer {
+    position: relative;
+
+    padding: 10px;
+    border-top: 2px solid currentColor;
+    box-sizing: border-box;
+
+    text-align: right;
+
+    background-color: $off-white;
+    
+    h1 { margin-top: 2em }
+    #contact-info {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+        li {
+            display: inline-block;
+            
+            transition: transform 0.2s;
+            &:hover { transform: scale(1.3); }
+        }
+    }
+    #copyright {
+        margin: 0;
+        font-weight: bold;
+        text-align: left;
+    }
+    @media (max-width: 800px) {
+        #copyright { text-align: right; }
+    }
+}

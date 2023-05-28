@@ -1,0 +1,48 @@
+url: "https://lukearcamo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Luke Arcamo" # the name of your site, e.g. ACME Corp.
+tagline: "Artist, Programmer, Engineer, Bookworm."
+description: "The work of an artist, programmer, engineer, and bookworm."
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      excerpt_separator: "<!--split-->"
+
+sass:
+  style: compressed
+
+collections:
+  posts:
+    output: true
+    permalink: /articles/:categories/:title
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# exclude:
+  # - /art/
+  # - /_posts/
+  # - /articles.html
+  # - /categories.html
+  # - /tags.html
+  # - /art.html
+  # - /404.html
+
+  # - .sass-cache/
+  # - .jekyll-cache/
+  # - gemfiles/
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules/
+  # - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/
+
+# keep_files:
+#   - assets/images/

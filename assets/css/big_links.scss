@@ -1,0 +1,26 @@
+---
+---
+@import "base";
+
+html, body {
+    height: 100%;
+    color: $off-white;
+    background-color: $black;
+}
+
+header { z-index: 1; } // for modal box to be above main
+
+main {
+    padding: 2%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    h1 {
+        font-size: 80px;
+        @media (max-width: 800px) {
+            font-size: 40px;
+        }
+    }
+}

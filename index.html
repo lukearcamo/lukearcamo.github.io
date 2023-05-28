@@ -1,0 +1,151 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+    <head>
+        {% include head.html %}
+        <link rel="stylesheet" href="/assets/css/index.css">
+    </head>
+    <body>
+        <div id="fade" class="fade"></div>
+        <script src="/assets/js/fancy-links.js" defer></script>
+        
+        <header>
+            <div class="glitch giant" data-text="Luke Arcamo">Luke Arcamo</div>
+            <ul class="subtitle">
+                <li><a class="fancy-link from-right" href="/art">Artist.</a></li>
+                <li><a class="fancy-link from-right" href="https://github.com/lukearcamo">Programmer.</a></li>
+                <li><a class="fancy-link from-right" href="/articles/engineering">Engineer.</a></li>
+                <li><a class="fancy-link from-right" href="/articles/book-reviews">Reader.</a></li>
+            </ul>
+        </header>
+        
+        <article>
+            <section class="about">
+                <div>
+                    <blockquote>
+                        <i>“But I am an artist too, and therefore a liar. Distrust everything I say. I am telling the truth.”</i> —Ursula K. Le Guin<br><br>
+                    </blockquote>
+                    <h2>About</h2>
+                    {% assign year_fraction = "now" | date: "%j" | divided_by: 365 %}
+                    <p>
+                        Hello! My name is Luke, and I am a {{ "now" | date: "%y" | plus: year_fraction | minus: 4.712 | round }} year old chemical engineering student from Toronto.
+                        I created this website to showcase the projects I have worked on throughout my life, personal or professional, spanning art and science.
+                    </p>
+                </div>
+            </section>
+
+            <section class="art">
+                <div>
+                    <h2><a class="fancy-link from-left" href="/art">Art →</a></h2>
+                    <hr>
+                    <p>Stories told in a realistic or impressionistic style, focusing on a painterly style in spite of a digital medium.</p>
+                    <p>Primary inspirations include Johannes Vermeer, the Group of Seven, Edward Hopper, John Singer Sargent, and various other digital artists.</p>
+                    <p>Tools used: Sketchbook app, iPad, and relatively recently, an Apple Pencil.</p>
+                </div>
+                <div>
+                    <img draggable="false" loading="lazy" src="/assets/images/index/art-top-left.png">
+                    <img draggable="false" loading="lazy"src="/assets/images/index/art-top-right.png">
+                    <img draggable="false" loading="lazy"src="/assets/images/index/art-bottom-left.png">
+                    <img draggable="false" loading="lazy"src="/assets/images/index/art-bottom-right.png">
+                </div>
+            </section>
+        
+            <section class="code">
+                <div>
+                    <h2><a class="fancy-link from-left" href="https://github.com/lukearcamo?tab=repositories">Code →</a></h2>
+                    <hr>
+                    <p>My GitHub contains mainly unfinished projects lacking in documentation, with more unpublished experiments beyond it.</p>
+                    <p>Key interests include web design and 3D graphics using WebGL/OpenGL (raytracing/raymarching, shaders, procedural generation).</p>
+                    
+                    <h3>Familiar with:</h3>
+                    <ul class="languages-list">
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"/>Python</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>JavaScript</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/>HTML</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>CSS, Sass</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg"/>C++, C</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-plain.svg"/>GLSL, OpenGL</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg"/>WebGL, Three.js</li>
+                        <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-plain.svg"/>MATLAB</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Latest projects:</h3>
+                    <hr>
+                    <h3><a class="fancy-link from-left" href="https://github.com/lukearcamo/HouseSimulator"><code>HouseSimulator</code> →</a></h3>
+                    <p>Rough calculator for embodied carbon, conduction heat transfer, operational carbon, and cost of a set of home retrofits.</p>
+                    <p>Part of the City of Toronto's net zero project and U of T's APS112 course.</p>
+                    <h3><a class="fancy-link from-left" href="https://github.com/lukearcamo/SolarSystem"><code>SolarSystem</code> →</a></h3>
+                    <p>To-scale model of various orbits in the solar system, for no use other than comprehending the vastness of space.</p>
+                    <p>Inspired after binging <i>The Expanse</i> over the winter break.</p>
+                </div>
+            </section>
+        
+            <section class="articles">
+                <div>
+                    <h2><a class="fancy-link from-left" href="/articles/latest">Articles →</a></h2>
+                    <hr>
+                    <p>Coding discussions, book reviews, and engineering textbook notes.</p>
+                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/categories">Posts by categories →</a></h3>
+                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/tags">Posts by tags →</a></h3>
+                </div>
+                <div>
+                    <h3>Latest posts:</h3>
+                    <hr>
+                    {% for post in site.posts limit:3 %}
+                        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
+                        {{ post.excerpt }}
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="book-reviews">
+                <div>
+                    <h2><a class="fancy-link from-left" href="/articles/book-reviews">Book Reviews →</a></h2>
+                    <hr>
+                    <p>Mild spoilers, though I try to hide most of it.</p>
+                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/tags">Posts by tags →</a></h3>                    
+                    <p>
+                        I generally like all of the stuff I read. It's hard for me to hate a particular book or genre.
+                        I can appreciate the writing skill involved in any work even if it doesn't match my tastes.
+                    </p>
+                    <details><summary>However, there are some trends I have identified in my preferences:</summary>
+                        <ul>
+                            <li>Favourite genre: New Wave science fiction</li>
+                            <li>Detailed worldbuilding, with attention to scientific accuracy and historical precedent</li>
+                            <li>Intercultural contact, revealing how each side reacts to the unfamiliar</li>
+                            <li>Pushes the boundaries of the human experience -- involves a greater extent of pain and joy than in real life</li>
+                            <li>Slice of life, <i><a class="text-link" href="https://en.wikipedia.org/wiki/Mono_no_aware">mono no aware</a></i></li>
+                            <li>Complicated characters and plots</li>
+                            <li>Ambivalent emotions e.g. nostalgia</li>
+                            <li>Philosophical. Ideas that challenge my own worldview and can be assimilated. In reading, one goal in addition to entertainment is personal growth.</li>
+                            <li>Beautiful, poetic, "Borgesian" quotes</li>
+                            <li>I don't mind spoilers much since I value the story's journey, not just the ending.</li>
+                        </ul>
+                    </details>
+                </div>
+                <div>
+                    <h3>Currently reading:</h3>
+                    <hr>
+                    <h3>Lilith's Brood by Octavia Butler</h3>
+                    <p><b>Progress: 81% | Status: ★★★★★ 😁</b></p>
+                    <p>
+                        Lilith Iyapo wakes up in a pristine cell with vague memories of her husband and child dying in an car accident, and of war decimating the Earth.
+                        Eventually, she learns that what remained of humanity, including her was rescued by the Oankali, powerful, grotesque, and seemingly benevolent genetic engineers.
+                        But this favor comes at a cost. Should humanity die with integrity, having preserved its physical and cultural identity?
+                        Or should humans ensure the survival of their children in order to survive the new world, even if they are unrecognizable?
+                    </p>
+                    <!-- Download these images later -->
+                    <img width=200 loading="lazy" src="https://m.media-amazon.com/images/I/81MvpnR5tnL._AC_UF1000,1000_QL80_.jpg">
+                    <img width=200 loading="lazy" src="https://m.media-amazon.com/images/I/81Ms8+yObrS.jpg">
+                    <img width=200 loading="lazy" src="https://m.media-amazon.com/images/I/81cUheywkLL._AC_UF1000,1000_QL80_.jpg">
+                </div>
+            </section>
+        </article>
+
+        <footer>
+            {% include footer.html %}
+        </footer>
+    </body>
+</html>

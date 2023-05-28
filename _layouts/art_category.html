@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+    <head>
+        {% include head.html %}
+        <link rel="stylesheet" href="/assets/css/art_category.css">
+    </head>
+    <style>
+    </style>
+    <body>
+        {% assign categoryName = page.title | slugify %}
+        {% assign category = site.data.artworks[categoryName] %}
+
+        <div id="fade" class="fade" style="background-color: {{ category.background-color }}"></div>
+        <script src="/assets/js/fancy-links.js" defer></script>
+
+        <header style="background-color: {{ category.background-color }}">
+            {% include nav.html %}
+            <h1>{{ page.title }}</h1>
+            {{ site.data.artworks.excerpt }}
+        </header>
+        
+        <main style="background-color: {{ category.background-color }}">
+            {% for img in category.imgs %}
+                <section id="{{ img.title | slugify }}">
+                    <h2>{{ img.title }}</h2>
+                    <h3>{{ img.date }}</h3>
+
+                    {% if img.lore %}
+                        <blockquote>{{ img.lore }}</blockquote>
+                    {% endif %}
+                    
+                    <p>{{ img.caption }}</p>
+                    <img src="/assets/images/art/{{ categoryName }}/{{ img.filename }}">
+                </section>
+            {% endfor %}
+        </main>
+
+        <footer style="background-color: {{ category.background-color }}">
+            {% include footer.html %}
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+---
+---
+@import "base";
+
+body { background-color: $off-white; } // in case list is empty, content may be too short and white bg shows
+
+header {
+    padding-bottom: 3%;
+    h1 { margin-bottom: 1em; }
+    h3 { margin-top: 0; }
+}
+
+.tags-cloud {
+    text-align: justify;
+    font-family: Courier;
+    font-weight: bold;
+    a { margin: 0 10px; }
+}
+
+main {
+    background-color: $off-white;
+    p { padding-bottom: 1.5em; }
+}
+
+.articles-latest {
+    color: $off-white;
+    background-color: $dark;
+}
+.articles-categories, .articles-book-reviews, .articles-coding, .articles-engineering {
+    color: $off-white;
+    background-color: $black;
+}
+.articles-tags {
+    background-color: $dark-white;
+}

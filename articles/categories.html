@@ -1,0 +1,10 @@
+---
+layout: big_links
+title: "Articles: Categories"
+---
+{% for category in site.categories %}
+    <h1><a href="{{ category[0] }}"
+        class="fancy-link from-left">
+        {{ category[0] | replace: "-", " "}} →
+    </a></h1>
+{% endfor %}

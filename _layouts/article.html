@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+    <head>
+        {% include head.html %}
+        <link rel="stylesheet" href="/assets/css/article.css">
+    </head>
+    <body>
+        {% assign sections = content | split: "<!--split-->" %}
+        
+        <div id="fade" class="fade"></div>
+        <script src="/assets/js/fancy-links.js" defer></script>
+
+        <header style="background-color: {{ page.background-color }};">
+            {% include nav.html %}
+            <h1>{{ page.title }}</h1>
+            <h3>{{ page.date | date_to_string }}</h3>
+            {{ sections[0] }}
+            
+            <ul id="tags">
+                Tags:
+                {% for tag in page.tags %}
+                    <li class="tag"><a class="fancy-link from-left" href="/articles/tags?tag={{ tag }}">{{ tag }}</a></li>
+                {% endfor %}
+            </ul>
+        </header>
+
+        <main>
+            <aside>
+                <h3>Contents</h3>
+                {{ sections[1] }}
+            </aside>
+            <article>
+                {{ sections[2] }}
+            </article>
+        </main>
+
+        <footer>
+            {% include footer.html %}
+        </footer>
+    </body>
+</html>

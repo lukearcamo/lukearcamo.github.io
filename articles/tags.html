@@ -1,0 +1,47 @@
+---
+layout: articles_list
+title: Tags
+---
+<p class="tags-cloud">
+    {% assign num-posts = site.posts | size | times: 1.0 %}
+    {% assign sorted = site.tags | sort %}
+    {% for tag in sorted %}
+        <a id="tag-{{ tag[0] }}"
+            style="font-size: {{ tag[1] | size | divided_by: num-posts | times: 5.0 | plus: 0.75 }}em;"
+            class="tag fancy-link from-left" href="tags?tag={{ tag[0] }}">{{ tag[0] }}</a>
+    {% endfor %}
+</p>
+<hr id="hr">
+{% for post in site.posts %}
+    <section data-tags="{{ post.tags | join: ' ' }}">
+        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
+        {{ post.excerpt }}
+    </section>
+{% endfor %}
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const tagName = urlParams.get("tag");
+
+    var isEmpty = true;
+    document.querySelectorAll("section").forEach(section => {
+        var tags = section.dataset.tags.split(" ");
+        // console.log(tags);
+        if (tags.includes(tagName)) {
+            section.style.display = "block";
+            isEmpty = false;
+        }
+        else {
+            section.style.display = "none";
+        }
+    });
+
+    if (isEmpty) {
+        document.getElementById("hr").style.display = "none";
+    }
+    else {
+        const tag = document.getElementById("tag-" + tag);
+        tag.style.color = "#fae9d4";
+        tag.style.backgroundColor = "black";
+    }
+</script>

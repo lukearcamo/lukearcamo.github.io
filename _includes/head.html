@@ -1,0 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="icon" type="image/png" href="/assets/images/logo/favicon.png">
+
+{% if page.needs-mathjax %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
+
+{% if page.needs-rouge %}
+<link rel="stylesheet" href="/assets/css/gruvbox.css">
+{% endif %}
+
+{% seo %}

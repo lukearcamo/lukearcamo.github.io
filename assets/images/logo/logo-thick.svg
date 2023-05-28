@@ -1,0 +1,21 @@
+<!-- <svg version="1.1" viewBox="0.0 0.0 192.0 288.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="p.0">
+        <path d="m0 0l192.0 0l0 288.0l-192.0 0l0 -288.0z" clip-rule="nonzero"/>
+    </clipPath>
+    <mask id="hole">
+        <rect fill="#ffffff" x="0.0" y="0.0" width="192.0" height="288.0"/>
+        <path fill="#000000" d="m104.0 200.0024l48.002396 -64.002396l0 64.002396z"/>
+    </mask>
+    <g clip-path="url(#p.0)" mask="url(#hole)">
+        <path fill="#000000" d="m192.0 0l-48.0 0l-144.0 184.0l0 56.0l32.0 0l-32.0 48.0l48.0 0l32.0 -48.0l72.0 0l0 48.0l40.0 0l0 -216.0l-40.0 0l-96.0 128.0l-16.0 0z"/>
+    </g>
+</svg> -->
+
+<svg version="1.1" viewBox="0.0 0.0 192.0 288.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <!-- <rect x="-500px" width="500%" height="100%" fill="#fae9d4"/> -->
+    <mask id="hole">
+        <rect fill="#ffffff" x="0.0" y="0.0" width="192.0" height="288.0"/>
+        <path fill="#000000" d="m104.0 200.0024l48.002396 -64.002396l0 64.002396z"/>
+    </mask>
+    <path fill="#000000" mask="url(#hole)" d="m192.0 0l-48.0 0l-144.0 184.0l0 56.0l32.0 0l-32.0 48.0l48.0 0l32.0 -48.0l72.0 0l0 48.0l40.0 0l0 -216.0l-40.0 0l-96.0 128.0l-16.0 0z"/>
+</svg>
