@@ -2,6 +2,14 @@
 layout: articles_list
 title: Tags
 ---
+<h3 id="msg">Click on a tag to see its posts</h3>
+{% for post in site.posts %}
+    <section data-tags="{{ post.tags | join: ' ' }}">
+        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
+        {{ post.excerpt }}
+    </section>
+{% endfor %}
+<hr>
 <p class="tags-cloud">
     {% assign num-posts = site.posts | size | times: 1.0 %}
     {% assign sorted = site.tags | sort %}
@@ -11,13 +19,6 @@ title: Tags
             class="tag fancy-link from-left" href="tags?tag={{ tag[0] }}">{{ tag[0] }}</a>
     {% endfor %}
 </p>
-<hr id="hr">
-{% for post in site.posts %}
-    <section data-tags="{{ post.tags | join: ' ' }}">
-        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
-        {{ post.excerpt }}
-    </section>
-{% endfor %}
 
 <script>
     const urlParams = new URLSearchParams(window.location.search);
@@ -36,10 +37,8 @@ title: Tags
         }
     });
 
-    if (isEmpty) {
-        document.getElementById("hr").style.display = "none";
-    }
-    else {
+    if (!isEmpty) {
+        document.getElementById("msg").style.display = "none";
         const tag = document.getElementById("tag-" + tag);
         tag.style.color = "#fae9d4";
         tag.style.backgroundColor = "black";
