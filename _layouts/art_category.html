@@ -4,11 +4,9 @@
         {% include head.html %}
         <link rel="stylesheet" href="/assets/css/art_category.css">
     </head>
-    <style>
-    </style>
+    {% assign categoryName = page.title | slugify %}
+    {% assign category = site.data.artworks[categoryName] %}
     <body style="background-color: {{ category.background-color }}">
-        {% assign categoryName = page.title | slugify %}
-        {% assign category = site.data.artworks[categoryName] %}
 
         <div id="fade" class="fade" style="background-color: {{ category.background-color }}"></div>
         <script src="/assets/js/fancy-links.js" defer></script>
