@@ -6,7 +6,7 @@
     </head>
     <style>
     </style>
-    <body>
+    <body style="background-color: {{ category.background-color }}">
         {% assign categoryName = page.title | slugify %}
         {% assign category = site.data.artworks[categoryName] %}
 
