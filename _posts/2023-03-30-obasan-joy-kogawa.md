@@ -2,7 +2,7 @@
 layout: article
 title: "<i>Obasan</i> by Joy Kogawa"
 category: book-reviews
-tags: historical canadian asian ww2 war autobiographical
+tags: historical canadian asian ww2 war autobiographical tragedy
 background-color: "#7cc2b2"
 ---
 ★★★★☆ — A semi-autobiographical story of Japanese internment in Canada. During WWII, Canadian citizens of Japanese descent were dubbed a national security threat by the government and forced to relocate into abhorrent living conditions. This is the story of a girl and the horrors her family quietly endured — a family, once whole, fragmented by the end.
