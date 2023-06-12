@@ -39,9 +39,9 @@
                 <div>
                     <h2><a class="fancy-link from-left" href="/art">Art →</a></h2>
                     <hr>
-                    <p>Stories told in a realistic or impressionistic style, focusing on a painterly style in spite of a digital medium.</p>
-                    <p>Primary inspirations include Johannes Vermeer, the Group of Seven, Edward Hopper, John Singer Sargent, and various other contemporary digital artists.</p>
-                    <p>Tools used: Sketchbook app, iPad, and relatively recently, an Apple Pencil.</p>
+                    <p>Stories told in a realistic, impressionistic, painterly style through a digital medium.</p>
+                    <p>Primary inspirations: Johannes Vermeer, the Group of Seven, Edward Hopper, John Singer Sargent, and various other contemporary digital artists.</p>
+                    <p>Tools: Sketchbook app, iPad, and an Apple Pencil.</p>
                 </div>
                 <div>
                     <img draggable="false" loading="lazy" src="/assets/images/index/art-top-left.png">
@@ -55,7 +55,7 @@
                 <div>
                     <h2><a class="fancy-link from-left" href="https://github.com/lukearcamo?tab=repositories">Code →</a></h2>
                     <hr>
-                    <p>My GitHub contains mainly unfinished projects lacking in documentation, with more unpublished experiments beyond it.</p>
+                    <!-- <p>My GitHub contains mainly unfinished projects lacking in documentation, with more unpublished experiments beyond it.</p> -->
                     <p>Key interests include web design and 3D graphics using WebGL/OpenGL (raytracing/raymarching, shaders, procedural generation).</p>
                 </div>
                 <div>
@@ -80,26 +80,9 @@
                     <hr>
                     <p>Coding discussions, book reviews, and engineering textbook notes.</p>
                     <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/tags">Posts by tags →</a></h3>
-                </div>
-                <div>
-                    <h3>Latest posts:</h3>
-                    <hr>
-                    {% for post in site.posts limit:3 %}
-                        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
-                        {{ post.excerpt }}
-                    {% endfor %}
-                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/latest">More posts →</a></h3>
-                </div>
-            </section>
-
-            <section class="book-reviews">
-                <div>
-                    <h2><a class="fancy-link from-left" href="/articles/book-reviews">Book Reviews →</a></h2>
-                    <hr>
-                    <p>Mild spoilers, though I try to hide most of it.</p>
-                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/tags">Posts by tags →</a></h3>                    
+                    <p>Mild spoilers in book reviews, though I try to hide most of it.</p>
                     
-                    <details><summary>Preferences:</summary>
+                    <details><summary>Book preferences:</summary>
                         <p>
                             I generally like all of the stuff I read. It's hard for me to hate a particular book or genre.
                             I can appreciate the writing skill involved in any work even if it doesn't match my tastes.
@@ -120,22 +103,16 @@
                     </details>
                 </div>
                 <div>
-                    <h3>Currently reading:</h3>
+                    <h3>Latest posts:</h3>
                     <hr>
-                    <h3>Lilith's Brood by Octavia Butler</h3>
-                    <p><b>Progress: 81% | Status: ★★★★★ 😁</b></p>
-                    <p>
-                        Lilith Iyapo wakes up in a pristine cell with vague memories of her husband and child dying in an car accident, and of war decimating the Earth.
-                        Eventually, she learns that what remained of humanity, including her was rescued by the Oankali, powerful, grotesque, and seemingly benevolent genetic engineers.
-                        But this favor comes at a cost. Should humanity die with integrity, having preserved its physical and cultural identity?
-                        Or should humans ensure the survival of their children in order to survive the new world, even if they become unrecognizable?
-                    </p>
-                    <!-- Download these images later -->
-                    <img width=200 loading="lazy" src="https://m.media-amazon.com/images/I/81MvpnR5tnL._AC_UF1000,1000_QL80_.jpg">
-                    <img width=200 loading="lazy" src="https://m.media-amazon.com/images/I/81Ms8+yObrS.jpg">
-                    <img width=200 loading="lazy" src="https://m.media-amazon.com/images/I/81cUheywkLL._AC_UF1000,1000_QL80_.jpg">
+                    {% for post in site.posts limit:3 %}
+                        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
+                        {{ post.excerpt }}
+                    {% endfor %}
+                    <h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/latest">More posts →</a></h3>
                 </div>
             </section>
+
         </article>
 
         <footer>
