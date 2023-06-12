@@ -23,7 +23,7 @@ background-color: "#6b7854"
   - [4.2. Akin](#42-akin)
   - [Others](#others)
 - [5. Themes](#5-themes)
-  - [5.1. Humanity’s hierarchical behaviour plus intelligence as inevitably destructive. My interpretation:](#51-humanitys-hierarchical-behaviour-plus-intelligence-as-inevitably-destructive-my-interpretation)
+  - [5.1. Humanity’s hierarchical behaviour plus intelligence as inevitably destructive](#51-humanitys-hierarchical-behaviour-plus-intelligence-as-inevitably-destructive)
   - [5.2. Morality](#52-morality)
   - [5.3. Nature vs. Nurture, Biological Determinism](#53-nature-vs-nurture-biological-determinism)
   - [5.4. Discrimination](#54-discrimination)
@@ -151,7 +151,9 @@ Lilith is a rational leader, the perfect choice to be a bridge between two cultu
 
 ## 5. Themes
 
-### 5.1. Humanity’s hierarchical behaviour plus intelligence as inevitably destructive. My interpretation:
+### 5.1. Humanity’s hierarchical behaviour plus intelligence as inevitably destructive
+
+My interpretation:
 * Hierarchical behaviour alone, without intelligence, works effectively – bees, ants, colonial insects.
 * Intelligence promotes independence which threatens the hierarchy.
 * On the other hand, hierarchy can override intelligence and promote irrational decision making.
