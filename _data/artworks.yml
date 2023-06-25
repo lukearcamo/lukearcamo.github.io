@@ -92,7 +92,7 @@ landscapes:
         good thing.
 
 quiet-problems:
-  background-color: "#555976" #26303C
+  background-color: "#71758E" #26303C #555976
   excerpt: >-
     A series of artworks intended to raise awareness about global issues that
     are often overlooked.
@@ -123,7 +123,7 @@ quiet-problems:
         one's ancestors, lost in the depths of history.
 
 portraits:
-  background-color: "#8a6e58" #82ACD9
+  background-color: "#9c7c63" #82ACD9 #8a6e58
   imgs:
     - filename: portrait_800na.png
       title: Self-Portrait
