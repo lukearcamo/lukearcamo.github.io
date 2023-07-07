@@ -5,7 +5,7 @@ category: book-reviews
 tags: scifi romance political feminist multiperspective war soft-sf space speculative
 background-color: "#837786"
 ---
-★★★★☆ — Werel and Yeowe are two planets with a long, painful history. Three centuries ago, its dark blue ethnic groups began the enslavement of lighter-skinned people. But this complex history is better understood on a smaller, human scale. In these four stories, characters learn about true freedom, heal after the War of Liberation, and understand the place of their local world within the larger universe.
+★★★★☆ — Werel and Yeowe are two planets with a long, painful history. Three centuries ago, its dark blue ethnic groups began the enslavement of lighter-skinned people. But this complex history is better understood on a smaller, human scale. In these four stories, different characters learn about true freedom, heal after the War of Liberation, and understand the place of their local world within the larger universe.
 
 <!--split-->
 
@@ -29,7 +29,7 @@ background-color: "#837786"
 
 ### 1.1. Culture
 * Realistic due to clear influences from our own world’s slave trade
-* I can also see influences from Hawai’i’s history (plantations, big five oligarchy) – this was my IB extended essay topic so it’s cool to see it here again
+* I can also see influences from Hawaiʻi’s history (plantations, big five oligarchy) – this was my IB extended essay topic so it’s cool to see it here again
 * Like on the planet Seggri (another book review coming soon!), Le Guin flips our own world history – the dark-skinned Werelians are the owners and the light-skinned Werelians are the assets.
 * Werel is not a monoculture. In fact, the only monocultural aspect is slavery, and that was due to Voe Dean hegemony. Otherwise, there were so many different groups all interacting with each other in complicate ways.
 * I should also probably discuss the culture of Hain, eighty light years from Werel and Yeowe, described in A Man of the People.
