@@ -3,14 +3,26 @@ layout: article
 title: "<i>The Birthday of the World and Other Stories</i> by Ursula K. Le Guin"
 category: book-reviews
 tags: scifi sociology adventure romance speculative multiperspective fantasy
-background-color: "#eba234"
+background-color: "#ebbc75"
 ---
 ★★★★☆ — “These seven stories share a pattern: they exhibit in one way or another, from inside or through an observer (who is liable to go native), people whose society differs from ours, even whose physiology may differ from ours, but who feel the way we do. First to create difference—to establish strangeness—then to let the fiery arc of human emotion leap and close the gap: this acrobatics of the imagination fascinates and satisfies me as almost no other.”
 
 <!--split-->
 
-Use Markdown All in One to create table of contents
-Be sure to update section numbers regularly
+- [1. Coming of Age in Karhide](#1-coming-of-age-in-karhide)
+- [2. The Matter of Seggri](#2-the-matter-of-seggri)
+- [3. Unchosen Love](#3-unchosen-love)
+- [4. Mountain Ways](#4-mountain-ways)
+- [5. Solitude](#5-solitude)
+- [6. Old Music and the Slave Women](#6-old-music-and-the-slave-women)
+- [7. The Birthday of the World](#7-the-birthday-of-the-world)
+- [8. Paradises Lost](#8-paradises-lost)
+- [9. The Shobies’ Story](#9-the-shobies-story)
+- [10. Dancing to Ganam](#10-dancing-to-ganam)
+- [11. A Fisherman of the Inland Sea](#11-a-fisherman-of-the-inland-sea)
+- [12. Bonus essays](#12-bonus-essays)
+- [13. Further Reading](#13-further-reading)
+
 <!--split-->
 
 ## 1. Coming of Age in Karhide
@@ -20,7 +32,7 @@ Be sure to update section numbers regularly
 * There is a sense of maturity and wholesome wisdom to the ending which I loved
 * Recurring motifs like “golden light” which I loved
 
-## The Matter of Seggri
+## 2. The Matter of Seggri
 * Once again, Le Guin uses my favorite premise of experimenting with a small aspect of humanity and seeing how vastly it can affect a culture.
 * Le Guin adds a twist to our own world history, and by doing so she clarifies the injustice and inspires stronger sympathy. Like flipping your canvas in art to see it from a fresh perspective.
 * Like on Gethen, Le Guin explores so many great questions and themes:
@@ -31,28 +43,28 @@ Be sure to update section numbers regularly
 * But it’s not all strictly dystopian. Le Guin introduces small elements of utopia in her cultures too.
   * “Teachers and students cross and mix fields all the time, and being a famous scholar in one field doesn’t keep you from being a student in another.” Nominally it’s the same in our world, but our economy simply doesn’t value academics the way they do.
 
-## Unchosen Love
+## 3. Unchosen Love
 * This unique culture provides an opportunity to ask questions that would be impossible otherwise. Again, pushing the boundaries of the human experience.
   * “Is it honest to marry a person you don’t even like in order to marry a person you love?”
 * Beautiful, impactful, happy ending. Not all of Le Guin’s endings are tragic or ambiguous; she has skill, versatility.
 
-## Mountain Ways
+## 4. Mountain Ways
 * Yes, moiety is another way for humans to divide each other, but in this case they are complements. They cannot go to war against each other without hurting their own capacity to marry. And because moiety is perpendicular to gender, perhaps Le Guin is saying something about our own gender divisions.
 * This is a society with no homophobia or even heterophobia because everyone is expected to marry both genders.
 * Like the saying from Seggri, this is the perfect example of “the untold story mothers the lie.” They could have at least colluded once Otorra revealed his situation, but they chose to hide things from each other. Smh.
 * The drama is unreal. Our culture’s relationship difficulties seem inconsequential beside this lol. Netflix adaptations could never.
 
-## Solitude
+## 5. Solitude
 * It feels like a mixture of Le Guin’s other worlds. Thematically, it’s profound, but I didn’t like the worldbuilding that much. Still excellent, though. I don’t know if it’s the world itself, or the ineffable feeling of solitude that Serenity tries to describe, it’s beautiful and I want to experience it.
  
-## Old Music and the Slave Women
+## 6. Old Music and the Slave Women
 * See the review of *Four Ways to Forgiveness*. In short, it’s great. I would love to hear more about Werel and Yeowe. It’s so hard to part with Le Guin’s characters and cultures, and the thought that there are a finite number of Le Guin stories remaining is heartbreaking.
 
-## The Birthday of the World
+## 7. The Birthday of the World
 * Although I had trouble visualizing the world and I wish the aesthetic was more clearly defined, the culture was utterly unique. Beautiful.
 * The twists at the end were so awesome. Part of me wants further explanation, maybe the story told from an outsider perspective, but the “local knowledge” has its own charm. I wouldn’t have it any other way.
 
-## Paradises Lost
+## 8. Paradises Lost
 * Such a unique situation – instead of a typical portrayal of human technological progress, we are shown a perfectly self-sufficient post-scarcity society rediscovering fire, nature, tradition, war, art, essentially what it meant to be human.
   * The only thing remaining that is beyond their control is death, hence it is the only place in which spirituality remains. Fascinating.
 * Luis’s mind seems interesting, thoughtful, and rare. I would love to have a chance to talk to him.
@@ -70,7 +82,7 @@ Be sure to update section numbers regularly
 
 > Note: The following stories were not originally published in *The Birthday of the World and Other Stories*, they were published in *A Fisherman of the Inland Sea*. However, the edition that I got included these as a bonus, so I just included these in the review.
 
-## The Shobies’ Story
+## 9. The Shobies’ Story
 * I love the mix of people and cultures in the context of a space crew. It’s nothing like our flawed implementation of diversity on Earth. The crew consists of Terrans and people from other planets, children, elderly, men and women and those in-between, humans of very different biological characteristics, humans with different cultural knowledge presented as technical expertise.
 * I love how the children are actually useful team members instead of liabilities. They are very intelligent for their age.
 * Mental health is highly valued, but it is taken for granted, unlike in our society where it's elevated on a pedestal, though perhaps this inevitably must happen before reaching this perfected end state. Examples: 
@@ -85,16 +97,16 @@ Be sure to update section numbers regularly
   * I also like how Le Guin did not mention who was speaking which story. Perhaps it’s an artifact of the blurring of causality, but also the beauty is that you can tell who is speaking what just by the tone of their voice and content of their story. Le Guin did an excellent job in characterizing them beforehand.
   * The circularity of the story, hearkening back to their isyeye at Liden, is satisfying.
 
-## Dancing to Ganam
+## 10. Dancing to Ganam
 * Once you finish the story, read the first part again
-* My headcanon is that mezkletes are uplifted cats. Their curious behaviour seems so cute lol
+* My headcanon is that mezkletes are uplifted cats. Their curious behaviour is so cute lol
 * One thing that slightly bothers me from a technical perspective is that there is no decontamination during first contact or even regular interplanetary travel. Perhaps by this time they cured all diseases, idk.
 * Another thing that bothered me was the fact that for the longest time Le Guin did not use any pronouns for Forest and Riel so I had a hard time envisioning them, and then there were certain situations that made me alternate between thinking they were men or women or somewhere between.
 * Churtening’s relationship with reality reminds me of wave-function collapse
 * I love the representation of field linguistics – I would love to read more interactive stories like this, where we learn the language alongside the story’s progression
 * The ending was kinda funny and abrupt. I did not expect that from Le Guin’s typically-profound and ambivalent-emotion endings.
 
-## A Fisherman of the Inland Sea
+## 11. A Fisherman of the Inland Sea
 * More worldbuilding detail on the complicated ins and outs of sedoretu – fascinating
 * Other cultures have their own versions of conservatism and progressiveness, but Le Guin’s stories do not try to be political in a Terran way. She portrays both perspectives, saying there is no enlightened perfect ideology. All local knowledge is sacred.
 * Today people usually just name their children from a list of common names. It was more interesting when names actually had meaning, derived from ordinary words in their language.
@@ -103,10 +115,10 @@ Be sure to update section numbers regularly
 * Another way Le Guin breaks convention: churten involves no flashes of light, no sounds, no fancy effects. Nothing happens. Teleportation distilled to the core concept.
 * The twist was so cool as well, the way the events near the ending circle back to the beginning
 
-## Bonus essays
+## 12. Bonus essays
 * Nice way to wrap things up. Inspirational, insightful, and applicable today.
 
-## 2. Further Reading
+## 13. Further Reading
 Wikipedia — [https://en.wikipedia.org/wiki/The_Birthday_of_the_World_and_Other_Stories](https://en.wikipedia.org/wiki/The_Birthday_of_the_World_and_Other_Stories)\
 Wikipedia — [https://en.wikipedia.org/wiki/A_Fisherman_of_the_Inland_Sea](https://en.wikipedia.org/wiki/A_Fisherman_of_the_Inland_Sea)\
 Goodreads — [https://www.goodreads.com/book/show/68021](https://www.goodreads.com/book/show/68021)
