@@ -302,12 +302,12 @@ random:
         Another foliage study except I used special brushes :P. Not happy with
         the symmetrical composition and the overall darkness/solidness of the
         colour, but I do like the limited blending.
-    - filename: spaces_lowres.png
-      title: Spaces of Unnamed Emotions
-      date: May 2020
-      caption: >-
-        These studies of liminal spaces were inspired by my room during the
-        pandemic, childhood memories, and images on the internet.
+    # - filename: spaces_lowres.png
+    #   title: Spaces of Unnamed Emotions
+    #   date: May 2020
+    #   caption: >-
+    #     These studies of liminal spaces were inspired by my room during the
+    #     pandemic, childhood memories, and images on the internet.
     - filename: envoi_site.png
       title: Envoi
       date: June 2021
