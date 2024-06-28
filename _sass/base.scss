@@ -26,6 +26,10 @@
     from { transform: translateY(200%); }
     to { transform: translateY(0); }
 }
+@keyframes fade {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
 
 // ================================================================================================================================
 // Resets for pesky default html tag styles
@@ -139,19 +143,16 @@ p, ul, ol, details {
     pointer-events: none;
     z-index: 10;
 
-    @keyframes fade-out {
-        from { opacity: 1 }
-        to { opacity: 0 }
-    }
     @keyframes grow {
         from { transform: translate(-50%, -50%) scale(0) }
         to { transform: translate(-50%, -50%) scale(250%) }
     }
     animation: {
-        name: fade-out;
+        name: fade;
         duration: 1s;
         timing-function: linear;
         fill-mode: both;
+        direction: reverse;
     }
 }
 

@@ -3,11 +3,34 @@
 @import "base";
 // @import "glitch";
 
+
 header {
     background-color: $off-white;
     height: 100vh;
 
     overflow: hidden;
+
+    #portrait {
+        position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%) scaleX(-1);
+
+        // top: 5%;
+        top: 0;
+        left: 60%;
+        transform: translateX(-50%);
+
+        max-width: 70vw;
+        max-height: 70%;
+
+        animation: {
+            name: fade;
+            delay: 1s;
+            duration: 3s;
+            fill-mode: both;
+        }
+    }
 
     .giant {
         position: absolute;
@@ -17,7 +40,7 @@ header {
         margin: 0 0 -0.1em -0.06em;
         line-height: 0.85em;
 
-        font-size: 20vw;
+        font-size: 18vw;
         font-family: Poppins;
 
         animation: {
@@ -58,7 +81,16 @@ header {
     }
 
     @media (max-width: 800px) {
-        height: 90vh; /* Find better fix for bottom bar height issues in webkit/ios safari*/
+        height: 90vh; /* Find better fix for bottom bar height issues in webkit/ios safari*/    
+        #portrait {
+            top: unset;
+            font-size: 23vw;
+            bottom: 2em;
+            // left: 30px;
+            left: 0;
+            transform: none;
+            max-height: 50%;
+        }
         .giant {
             font-size: 23vw;
         }
