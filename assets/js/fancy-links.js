@@ -9,7 +9,8 @@ document.querySelectorAll("a.fancy-link:not(#backToTop), #logo").forEach(item =>
         fade.style.animationName = "grow";
         fade.style.animationDuration = "1s";
         fade.style.animationTimingFunction = "ease";
-        
+        fade.style.animationDirection = "normal";
+
         fade.style.borderRadius = "50%";
         fade.style.width = "100vmax";
         fade.style.height = "100vmax";
