@@ -32,6 +32,7 @@ window.addEventListener("pageshow", e => {
         fade.style.animationName = "";
         fade.style.animationDuration = "";
         fade.style.animationTimingFunction = "";
+        fade.style.animationDirection = "reverse";
         
         fade.style.borderRadius = "";
         fade.style.width = "";
