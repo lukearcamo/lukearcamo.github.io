@@ -4,12 +4,12 @@ title: Tags
 ---
 {% for post in site.posts %}
     <section data-tags="{{ post.tags | join: ' ' }}">
-        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <b><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></b>
         <p class="date">{{ post.date | date: "%F" }}</p>
         {{ post.excerpt }}
     </section>
 {% endfor %}
-<p class="tags-cloud">
+<div class="tags-cloud">
     {% assign num-posts = site.posts | size | times: 1.0 %}
     {% assign sorted = site.tags | sort %}
     {% for tag in sorted %}
@@ -17,7 +17,7 @@ title: Tags
             style="font-size: {{ tag[1] | size | divided_by: num-posts | times: 5.0 | plus: 0.75 }}em;"
             class="tag fancy-link from-left" href="tags?tag={{ tag[0] }}">{{ tag[0] }}</a>
     {% endfor %}
-</p>
+</div>
 
 <script>
     const urlParams = new URLSearchParams(window.location.search);

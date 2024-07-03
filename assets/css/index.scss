@@ -74,6 +74,7 @@ main {
             line-height: 1.5em;
         }
     }
+    .date { margin: 0; }
     
     @for $i from 1 through 5 {
         section:nth-child(#{$i}) {

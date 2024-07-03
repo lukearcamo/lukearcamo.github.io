@@ -10,8 +10,7 @@
 
         <header>
             {% include nav.html %}
-            <h2>Articles:</h2>
-            <h1>{{ page.title }}</h1>
+            <h1>Articles: {{ page.title }}</h1>
             {% if page.title != "Latest" %}<h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles">Sort by latest →</a></h3>{% endif %}
             {% if page.title != "Tags" %}<h3 class="articles-list-links"><a class="fancy-link from-left" href="/articles/tags">Sort by tags →</a></h3>{% endif %}
         </header>

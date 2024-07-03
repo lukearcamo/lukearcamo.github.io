@@ -91,7 +91,8 @@
                 <!-- <h3><a class="fancy-link from-left" href="/articles/tags">Tags →</a></h3> -->
                 <h3>Latest:</h3>
                 {% for post in site.posts limit:3 %}
-                    <p><b><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date: "%F" }}</a></b></p>
+                    <b><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></b>
+                    <p class="date">{{ post.date | date: "%F" }}</p>
                     {{ post.excerpt }}
                 {% endfor %}
             </section>
