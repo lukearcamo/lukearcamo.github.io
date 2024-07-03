@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Fallen Angels</i> by Walter Dean Myers"
 category: book-reviews
 tags: war young-adult military historical african-american american censored autobiographical
-background-color: "#6b7854"
 ---
 ★★★★☆ — *Fallen Angels* is a coming-of-age novel written in 1988 by Walter Dean Myers. It is partially based on his own experiences as a black soldier in the Vietnam war. Despite winning multiple awards, it has also been on the list of the 100 Most Frequently Challenged Books for its overtly mature content. 
 
@@ -25,5 +23,5 @@ background-color: "#6b7854"
 * Would read the author's other works in the future
 
 ## 2. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Fallen_Angels_(Myers_novel)](https://en.wikipedia.org/wiki/Fallen_Angels_(Myers_novel))\
-Goodreads — [https://www.goodreads.com/book/show/436609](https://www.goodreads.com/book/show/436609)
+* Wikipedia — [https://en.wikipedia.org/wiki/Fallen_Angels_(Myers_novel)](https://en.wikipedia.org/wiki/Fallen_Angels_(Myers_novel))
+* Goodreads — [https://www.goodreads.com/book/show/436609](https://www.goodreads.com/book/show/436609)

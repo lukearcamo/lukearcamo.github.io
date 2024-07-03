@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Naked Sun</i> by Isaac Asimov"
 category: book-reviews
 tags: scifi mystery crime space thriller dystopian sociology speculative
-background-color: "#b2ba57"
 ---
 ★★★☆☆ — The sequel to Asimov's *The Caves of Steel*, set in the same future in which the people of Earth have buried themselves in dense, underground megacities. There has been a murder on one of the Outer Worlds, and its authorities once again want Detective Baley and his robot partner to investigate.<br><br>Solaria is the polar opposite of Earth. With an extremely low population density — each of the 20,000 inhabitants own an estate — they have developed a post-scarcity, robot-driven society, with a cultural feature that makes this murder baffling: they are too disgusted to even approach each other.
 
@@ -69,5 +67,5 @@ background-color: "#b2ba57"
 * Additionally, whereas in *The Caves of Steel* he made an argument against socialism, citing economic failures, corruption, lack of privacy/individualism, etc. in a dystopia, here he made an argument against hyperindividualism in a utopia. Equivocal authors are my favorite kind, like Le Guin — authors whose goal is not to convince but to simply reveal the truth, pose questions, explore diverse perspectives, and provoke thought.
 
 ## 7. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/The_Naked_Sun](https://en.wikipedia.org/wiki/The_Naked_Sun)\
-Goodreads — [https://www.goodreads.com/book/show/30016](https://www.goodreads.com/book/show/30016)
+* Wikipedia — [https://en.wikipedia.org/wiki/The_Naked_Sun](https://en.wikipedia.org/wiki/The_Naked_Sun)
+* Goodreads — [https://www.goodreads.com/book/show/30016](https://www.goodreads.com/book/show/30016)

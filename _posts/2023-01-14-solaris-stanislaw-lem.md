@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Solaris</i> by Stanisław Lem"
 category: book-reviews
 tags: favorite scifi classic psychological horror romance translation space sociology
-background-color: "#ad351f"
 ---
 ★★★★★ — Kelvin arrives at the station on the planet Solaris, surprised to find it and its two lone inhabitants in disarray. He is a psychologist who will be joining them to study its ocean. Is it alive? Is it real? What does it say? Kelvin is the latest among the line of scientists to ask themselves these questions and fail to answer them, confounded by the ocean's behaviour. As it ebbs and flows into striking forms, some recognizable, others meaningless yet beautiful, Kelvin discovers that he knows as little about the universe as he does about himself.   
 
@@ -58,5 +56,5 @@ Sci-fi is meant to explore the human condition pushed to extremes, and wow Solar
 As much as I'd love to see the ocean animated on the big screen today, this story feels like it would be hard to adapt into a movie — it's too heavily based on internal thoughts.
 
 ## 5. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Solaris_(novel)](https://en.wikipedia.org/wiki/Solaris_(novel))\
-Goodreads — [https://www.goodreads.com/book/show/95558.Solaris](https://www.goodreads.com/book/show/95558.Solaris)
+* Wikipedia — [https://en.wikipedia.org/wiki/Solaris_(novel)](https://en.wikipedia.org/wiki/Solaris_(novel))
+* Goodreads — [https://www.goodreads.com/book/show/95558.Solaris](https://www.goodreads.com/book/show/95558.Solaris)

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Joy Luck Club</i> by Amy Tan"
 category: book-reviews
 tags: historical asian classic american feminist multiperspective
-background-color: "#a3589d"
 ---
 ★★★★☆ — Written in 1989, this novel tells the story of four mothers and four daughters. As they gather around a mahjong table, they share their experiences immigrating from China to America, facing cultural pressure from both sides, and ultimately reconciling their difficult relationships. Though groundbreaking at the time, it has developed a bitter taste for many Asians today. Although problematic, here is an attempt at defending it, as I firmly believe that all books have at least some value or truth. If I had infinite lives, I'd read every book.
 

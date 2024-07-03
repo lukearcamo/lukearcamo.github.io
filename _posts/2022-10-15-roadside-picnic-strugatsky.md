@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Roadside Picnic</i> by Arkady & Boris Strugatsky"
 category: book-reviews
 tags: scifi dystopian classic russian post-apocalyptic horror translation psychological aliens censored
-background-color: "#6b7854"
 ---
 ★★★☆☆ — Red Schuhart is a stalker, an illegal scavenger of the Zone. Several years ago, alien visitors left impossible artifacts. These physics-defying objects are protected by a research organization yet coveted by the black market in which Red sells. He risks death and imprisonment in order to support his family, trying to make a living in a universe that no longer makes sense. So, in this bleak the life of unpredictability and hopelessness, when he hears about an artifact that grants wishes, it's not hard to see that he's willing to do whatever it takes to find it.
 
@@ -35,5 +33,5 @@ background-color: "#6b7854"
 Overall, this book is understandably a classic; I can see its influence and resemblance in a lot of other artworks and popular culture.
 
 ## 4. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Roadside_Picnic](https://en.wikipedia.org/wiki/Roadside_Picnic)\
-Goodreads — [https://www.goodreads.com/book/show/331256](https://www.goodreads.com/book/show/331256)
+* Wikipedia — [https://en.wikipedia.org/wiki/Roadside_Picnic](https://en.wikipedia.org/wiki/Roadside_Picnic)
+* Goodreads — [https://www.goodreads.com/book/show/331256](https://www.goodreads.com/book/show/331256)

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Obasan</i> by Joy Kogawa"
 category: book-reviews
 tags: historical canadian asian ww2 war autobiographical tragedy
-background-color: "#7cc2b2"
 ---
 ★★★★☆ — A semi-autobiographical story of Japanese internment in Canada. During WWII, Canadian citizens of Japanese descent were dubbed a national security threat by the government and forced to relocate into abhorrent living conditions. This is the story of a girl and the horrors her family quietly endured — a family, once whole, fragmented by the end.
 
@@ -59,5 +57,5 @@ background-color: "#7cc2b2"
 * A central theme is the love between mother and child. I won’t spoil it, but there was an ultimate sacrifice, invisible at first, which resembles that of Estraven for Genly in [*The Left Hand of Darkness*]({% post_url 2022-10-10-the-left-hand-of-darkness-ursula-k-leguin %}): loving someone so much that you must separate yourself from them to protect them.
 
 ## 4. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Obasan](https://en.wikipedia.org/wiki/Obasan)\
-Goodreads — [https://www.goodreads.com/book/show/9723](https://www.goodreads.com/book/show/9723)
+* Wikipedia — [https://en.wikipedia.org/wiki/Obasan](https://en.wikipedia.org/wiki/Obasan)
+* Goodreads — [https://www.goodreads.com/book/show/9723](https://www.goodreads.com/book/show/9723)

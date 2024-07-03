@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Do Androids Dream of Electric Sheep?</i> by Philip K. Dick"
 category: book-reviews
 tags: scifi speculative dystopian classic post-apocalyptic psychological
-background-color: "#808080"
 ---
 ★★★★☆ — If it looks like a human, and behaves like a human, is it human? This is one of the many difficult questions Rick Deckard asks himself as he is tasked with "retiring" rogue androids in a polluted, irradiated Earth populated by a society devoid of any hope and barely holding on to the basic concept of empathy.
 
@@ -59,5 +57,5 @@ background-color: "#808080"
 Prescient. Funny and depressing all-in-one.
 
 ## 9. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F)\
-Goodreads — [https://www.goodreads.com/book/show/36402034-do-androids-dream-of-electric-sheep](https://www.goodreads.com/book/show/36402034-do-androids-dream-of-electric-sheep)
+* Wikipedia — [https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F)
+* Goodreads — [https://www.goodreads.com/book/show/36402034-do-androids-dream-of-electric-sheep](https://www.goodreads.com/book/show/36402034-do-androids-dream-of-electric-sheep)

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Testaments</i> by Margaret Atwood"
 category: "book-reviews"
 tags: dystopian speculative feminist multiperspective canadian
-background-color: "#b32d2d"
 ---
 
 ★★★★☆ — The sequel to *The Handmaid's Tale*, this book alternates between three womens' perspectives: Aunt Lydia, a divorced judge coerced into the politics of Gilead; Agnes Jemima, a girl seeking the truth about her family while trying to avoid an arranged marriage, and Daisy, a rebellious Canadian teen who becomes involved in a smuggling operation after her adoptive parents die in a bomb. As their paths intertwine, cracks form in the foundation of lies upon which Gilead rests.
@@ -94,5 +92,5 @@ background-color: "#b32d2d"
     * The revelation of the truth was revitalizing, but of course to be expected. The universe abhors untruths as it abhors a vacuum. Truth always prevails.
 
 ## 7. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/The_Testaments](https://en.wikipedia.org/wiki/The_Testaments)\
-Goodreads — [https://www.goodreads.com/book/show/42975172-the-testaments](https://www.goodreads.com/book/show/42975172-the-testaments)
+* Wikipedia — [https://en.wikipedia.org/wiki/The_Testaments](https://en.wikipedia.org/wiki/The_Testaments)
+* Goodreads — [https://www.goodreads.com/book/show/42975172-the-testaments](https://www.goodreads.com/book/show/42975172-the-testaments)

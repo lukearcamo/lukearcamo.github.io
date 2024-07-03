@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "Books from high school"
 category: book-reviews
 tags: play autobiographical graphic-novel tragedy american existensialism feminist historical political psychological
-background-color: "#9e9e9e"
 ---
 Some (but not all) of the miscellaneous books read for high-school English classes, whose reviews are not long enough to warrant new posts. Note that the tags don't necessarily apply to all of them, dw im not calling Persepolis an American play lmao  
 

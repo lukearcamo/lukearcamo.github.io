@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Handmaid's Tale</i> by Margaret Atwood"
 category: book-reviews
 tags: dystopian speculative feminist political canadian sociology classic
-background-color: "#b32d2d"
 ---
 ★★★★☆ — Red dress, white bonnet. Like yesterday. Today is grocery day. Offred provides the appropriate greeting to Ofglen. They walk down the street two-by-two. They read pictures, not words. They pass the guards at the checkpoint. They walk back. Offred returns to the Commander's house to take a long bath, because tonight is the Ceremony, and if she's lucky she will produce a viable child.<br><br>
 Offred wasn't always a Handmaid for the Republic of Gilead. She remembers having books, a credit card, a job, a car. Family and friends. But everything's fine now, Aunt Lydia says, because women are protected and valued. Right?
@@ -32,5 +30,5 @@ Offred wasn't always a Handmaid for the Republic of Gilead. She remembers having
   * I do agree with other people mentioning how she does not discuss race – a society like this is bound to have something to say about this issue, and the lack of their perspective is unusual, slightly immersion-breaking but not fundamentally story-breaking.
 
 ## 2. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale)\
-Goodreads — [https://www.goodreads.com/book/show/38447](https://www.goodreads.com/book/show/38447)
+* Wikipedia — [https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale)
+* Goodreads — [https://www.goodreads.com/book/show/38447](https://www.goodreads.com/book/show/38447)

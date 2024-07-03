@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "Making sense of Three.js shaders"
 category: coding
 tags: 3D-graphics webgl js glsl threejs
-background-color: "#EE9B00"
 needs-rouge: true
 ---
 Three.js comes with several materials built-in, but customizing these materials can be difficult because there isn't really a "clean" way to do it. There is the option of writing a custom shader from scratch, or injecting your own code into the existing shaders. Either way, it is important to understand Three.js shaders in order to be able to modify them. Unfortunately, Three.js shaders lack sufficient documentation, here is a general guide to understanding them. 
@@ -132,7 +130,8 @@ cube.material.onBeforeCompile = function(shader) {
 {% endhighlight %}
 
 ## 5. Resources
-Latest released Three.js GitHub code — [https://github.com/mrdoob/three.js/tree/dev/src/renderers/shaders](https://github.com/mrdoob/three.js/tree/dev/src/renderers/shaders)
+* Latest released Three.js GitHub code — [https://github.com/mrdoob/three.js/tree/dev/src/renderers/shaders](https://github.com/mrdoob/three.js/tree/dev/src/renderers/shaders)
+
 Three.js forums, specifically these two posts:
 * [https://discourse.threejs.org/t/what-are-pars-chunks-when-making-materials-what-does-pars-stand-for/15468](https://discourse.threejs.org/t/what-are-pars-chunks-when-making-materials-what-does-pars-stand-for/15468)
 * [https://discourse.threejs.org/t/why-do-ao-and-lightmap-need-a-second-set-of-uvs/4178](https://discourse.threejs.org/t/why-do-ao-and-lightmap-need-a-second-set-of-uvs/4178)

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>And Then There Were None</i> by Agatha Christie"
 category: book-reviews
 tags: mystery crime classic thriller
-background-color: "#785754"
 ---
 ★★★★☆ — Ten strangers, private island, ten impossible murders, ten possible suspects. Based on a nursury rhyme (renamed due to being *outdated* let's say), this is a classic Agatha Christie crime novel — the best-selling crime novel of all time. Proceed with caution as this genre is particularly vulnerable to spoilers.
 
@@ -26,5 +24,5 @@ background-color: "#785754"
   * However, I think next time I should try to guess how things were done before reading the solution. Like a puzzle.
 
 ## 2. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/And_Then_There_Were_None](https://en.wikipedia.org/wiki/And_Then_There_Were_None)\
-Goodreads — [https://www.goodreads.com/book/show/16299](https://www.goodreads.com/book/show/16299)
+* Wikipedia — [https://en.wikipedia.org/wiki/And_Then_There_Were_None](https://en.wikipedia.org/wiki/And_Then_There_Were_None)
+* Goodreads — [https://www.goodreads.com/book/show/16299](https://www.goodreads.com/book/show/16299)

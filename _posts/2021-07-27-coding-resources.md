@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "Coding resources"
 category: coding
 tags: 3D-graphics webgl js glsl threejs
-background-color: "#EE9B00"
 needs-rouge: true
 ---
 Here is a list of various online resources about computer graphics and web development, or coding in general. These are very useful for me, so I thought I'd share them. They are ordererd from beginner-friendly to more advanced.

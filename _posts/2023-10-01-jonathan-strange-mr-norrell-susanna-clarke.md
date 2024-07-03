@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Jonathan Strange & Mr Norrell by Susanna Clarke</i> by Susanna Clarke"
 category: book-reviews
 tags: fantasy historical british multiperspective
-background-color: "#5962b3"
 ---
 ★★★★☆ — Set in early-1800s England, the story is centered upon the two titular magicians who have opposing ideas about the way magic should be used. But a deal with a dangerous entity turns awry, they decide to enlist the help of an even more powerful mysterious person.
 
@@ -59,5 +57,5 @@ background-color: "#5962b3"
 For a debut novel this is ridiculously good.
 
 ## 7. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Jonathan_Strange_%26\_Mr_Norrell](https://en.wikipedia.org/wiki/Jonathan_Strange_%26_Mr_Norrell)\
-Goodreads — [https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell)
+* Wikipedia — [https://en.wikipedia.org/wiki/Jonathan_Strange_%26\_Mr_Norrell](https://en.wikipedia.org/wiki/Jonathan_Strange_%26_Mr_Norrell)
+* Goodreads — [https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell)

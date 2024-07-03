@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Caves of Steel</i> by Isaac Asimov"
 category: book-reviews
 tags: scifi mystery crime space thriller dystopian sociology speculative
-background-color: "#368991"
 ---
 ★★★★☆ — Centuries in the future, a New York detective partners with a robot to solve the murder of a prominent Spacer, an inhabitant of the Outer Worlds. As he confronts his own prejudices against Spacers and robots, he begins to see injustice within his own Earth cities.<br><br> Asimov was a biochemist and leading author in scifi. He wanted to demonstrate the versatility of sci-fi by combining it with another genre: detective stories. He also pioneered social science fiction and the Three Laws of Robotics. His work continues to have an impact today. 
 
@@ -53,5 +51,5 @@ background-color: "#368991"
   * I like how every party reached a compromise in the end, and even the murderer felt remorseful. Cliché perhaps, but there is a certain lightheartedness in this story that is not present in other dystopian stories like The Handmaid's Tale, and this allows a more balanced exploration of philosophical ideas.
 
 ## 6. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/The_Caves_of_Steel](https://en.wikipedia.org/wiki/The_Caves_of_Steel)\
-Goodreads — [https://www.goodreads.com/book/show/41811](https://www.goodreads.com/book/show/41811)
+* Wikipedia — [https://en.wikipedia.org/wiki/The_Caves_of_Steel](https://en.wikipedia.org/wiki/The_Caves_of_Steel)
+* Goodreads — [https://www.goodreads.com/book/show/41811](https://www.goodreads.com/book/show/41811)

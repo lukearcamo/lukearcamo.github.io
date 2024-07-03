@@ -4,8 +4,8 @@ source "https://rubygems.org"
 
 # gem "rails"
 # gem "jekyll"
-gem "github-pages", group: :jekyll_plugins
-gem "webrick"
+gem "github-pages", "~> 231", group: :jekyll_plugins
+gem "webrick", "~> 1.8"
 
 gem 'jekyll-seo-tag'
 gem "jekyll-sitemap"

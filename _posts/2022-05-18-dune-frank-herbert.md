@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Dune</i> by Frank Herbert"
 category: book-reviews
 tags: scifi soft-sf classic space political fantasy adventure favorite sociology
-background-color: "#c28844"
 ---
 ★★★★★ — Spice is a rare nootropic drug only found on the desert planet Arrakis, territory of giant sandworms and the native Fremen. Yet its promises of health, longevity, prescience, interstellar navigation, and death upon withdrawal make it the most economically valuable commodity in the Imperium.<br><br>When Arrakis is given to House Atreides by the Emperor, its former owners the Harkonnens will stop at nothing to win it back. Caught in the center of imperial politics, Fremen culture, and a millenia-old shadow government, heir Paul Atreides discovers that the fate of humanity rests in his hands, and in the mysterious Golden Path he must maneuver it into.
 
@@ -27,5 +25,5 @@ background-color: "#c28844"
 * The Baron feels comically evil and heavy-handed. He is politically and socially competent, but it felt like he was no match for Paul. Piter De Vries would have made a more devious and dangerous villain — like Paul, he was also on spice.
 
 ## 2. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Dune_(novel)](https://en.wikipedia.org/wiki/Dune_(novel))\
-Goodreads — [https://www.goodreads.com/book/show/44767458-dune](https://www.goodreads.com/book/show/44767458-dune)
+* Wikipedia — [https://en.wikipedia.org/wiki/Dune_(novel)](https://en.wikipedia.org/wiki/Dune_(novel))
+* Goodreads — [https://www.goodreads.com/book/show/44767458-dune](https://www.goodreads.com/book/show/44767458-dune)

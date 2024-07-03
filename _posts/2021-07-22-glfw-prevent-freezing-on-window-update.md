@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "GLFW: Prevent freezing on window update"
 category: coding
 tags: 3D-graphics opengl cpp
-background-color: "#EE9B00"
 needs-rouge: true
 ---
 On some platforms, dragging or resizing a GLFW window causes rendering to freeze until the operation is complete. There are many proposed solutions, but I personally did not have much luck with them. Here is my solution involving multithreading.

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Hunt for Red October</i> by Tom Clancy"
 category: book-reviews
 tags: thriller military mystery adventure war espionage political american multiperspective historical
-background-color: "#b32d2d"
 ---
 ★★★☆☆ — *The Hunt for Red October* is Tom Clancy's bestselling debut novel, and today remains the gold standard for spy novels, technothrillers, and military fiction. The book describes one of the most ingenious, convincing espionage plots ever created, set during the Cold War. The plan: to steal a whole submarine, quietly.
 
@@ -76,5 +74,5 @@ background-color: "#b32d2d"
 * Overall, I don’t stan this book, but it was surprisingly good.
 
 ## 7. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/The_Hunt_for_Red_October](https://en.wikipedia.org/wiki/The_Hunt_for_Red_October)\
-Goodreads — [https://www.goodreads.com/book/show/19691](https://www.goodreads.com/book/show/19691)
+* Wikipedia — [https://en.wikipedia.org/wiki/The_Hunt_for_Red_October](https://en.wikipedia.org/wiki/The_Hunt_for_Red_October)
+* Goodreads — [https://www.goodreads.com/book/show/19691](https://www.goodreads.com/book/show/19691)

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Love That Dog</i> by Sharon Creech"
 category: book-reviews
-tags: poetry childrens
-background-color: "#FED65D"
+tags: poetry children
 ---
 ★★★★★<br>"I guess it does<br>look like a poem<br>when you see it<br>typed up<br>like that."
 
@@ -29,9 +27,9 @@ background-color: "#FED65D"
   * To yall cat lovers, this doesn't actually hate on all cats, just one specific cat lol
 
 ## 2. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Love_That_Dog](https://en.wikipedia.org/wiki/Love_That_Dog)\
-Goodreads — [https://www.goodreads.com/en/book/show/53498](https://www.goodreads.com/en/book/show/53498)
+* Wikipedia — [https://en.wikipedia.org/wiki/Love_That_Dog](https://en.wikipedia.org/wiki/Love_That_Dog)
+* Goodreads — [https://www.goodreads.com/en/book/show/53498](https://www.goodreads.com/en/book/show/53498)
 
-For the sequel *Hate That Cat*:\
-Wikipedia — [https://en.wikipedia.org/wiki/Hate_That_Cat](https://en.wikipedia.org/wiki/Hate_That_Cat)\
-Goodreads — [https://www.goodreads.com/book/show/2930911-hate-that-cat](https://www.goodreads.com/book/show/2930911-hate-that-cat)
+For the sequel *Hate That Cat*:
+* Wikipedia — [https://en.wikipedia.org/wiki/Hate_That_Cat](https://en.wikipedia.org/wiki/Hate_That_Cat)
+* Goodreads — [https://www.goodreads.com/book/show/2930911-hate-that-cat](https://www.goodreads.com/book/show/2930911-hate-that-cat)

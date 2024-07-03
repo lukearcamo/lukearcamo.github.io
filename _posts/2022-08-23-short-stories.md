@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "Short stories I've read"
 category: book-reviews
 tags: scifi psychological tragedy
-background-color: "#9e9e9e"
 ---
 Reviews of various short stories, not long enough to warrant new posts like the previous high school books article.
 

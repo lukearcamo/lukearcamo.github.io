@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>Four Ways to Forgiveness</i> by Ursula K. Le Guin"
 category: book-reviews
 tags: scifi romance political feminist multiperspective war soft-sf space speculative
-background-color: "#837786"
 ---
 ★★★★☆ — Werel and Yeowe are two planets with a long, painful history. Three centuries ago, its dark blue ethnic groups began the enslavement of lighter-skinned people. But this complex history is better understood on a smaller, human scale. In these four stories, different characters learn about true freedom, heal after the War of Liberation, and understand the place of their local world within the larger universe.
 
@@ -74,5 +72,5 @@ There is a satisfying unity when symbols and phrases are repeated and given new 
 I can confidently say now that Le Guin is my #1 favorite author. Though I love other authors too like Borges, none of them consistently write such perfect worlds like she does.
 
 ## 8. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/Four_Ways_to_Forgiveness](https://en.wikipedia.org/wiki/Four_Ways_to_Forgiveness)\
-Goodreads — [https://www.goodreads.com/book/show/92605](https://www.goodreads.com/book/show/92605)
+* Wikipedia — [https://en.wikipedia.org/wiki/Four_Ways_to_Forgiveness](https://en.wikipedia.org/wiki/Four_Ways_to_Forgiveness)
+* Goodreads — [https://www.goodreads.com/book/show/92605](https://www.goodreads.com/book/show/92605)

@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "<i>The Birthday of the World and Other Stories</i> by Ursula K. Le Guin"
 category: book-reviews
 tags: scifi sociology adventure romance speculative multiperspective fantasy
-background-color: "#ebbc75"
 ---
 ★★★★☆ — “These seven stories share a pattern: they exhibit in one way or another, from inside or through an observer (who is liable to go native), people whose society differs from ours, even whose physiology may differ from ours, but who feel the way we do. First to create difference—to establish strangeness—then to let the fiery arc of human emotion leap and close the gap: this acrobatics of the imagination fascinates and satisfies me as almost no other.”
 
@@ -119,6 +117,6 @@ background-color: "#ebbc75"
 * Nice way to wrap things up. Inspirational, insightful, and applicable today.
 
 ## 13. Further Reading
-Wikipedia — [https://en.wikipedia.org/wiki/The_Birthday_of_the_World_and_Other_Stories](https://en.wikipedia.org/wiki/The_Birthday_of_the_World_and_Other_Stories)\
-Wikipedia — [https://en.wikipedia.org/wiki/A_Fisherman_of_the_Inland_Sea](https://en.wikipedia.org/wiki/A_Fisherman_of_the_Inland_Sea)\
-Goodreads — [https://www.goodreads.com/book/show/68021](https://www.goodreads.com/book/show/68021)
+* Wikipedia — [https://en.wikipedia.org/wiki/The_Birthday_of_the_World_and_Other_Stories](https://en.wikipedia.org/wiki/The_Birthday_of_the_World_and_Other_Stories)
+* Wikipedia — [https://en.wikipedia.org/wiki/A_Fisherman_of_the_Inland_Sea](https://en.wikipedia.org/wiki/A_Fisherman_of_the_Inland_Sea)
+* Goodreads — [https://www.goodreads.com/book/show/68021](https://www.goodreads.com/book/show/68021)
