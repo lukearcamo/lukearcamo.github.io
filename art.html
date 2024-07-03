@@ -16,7 +16,7 @@
         
         <main>
             {% for art in site.art reversed %}
-                <a href="{{ art.url }}"><img src="{{ art.src }}" draggable="false" loading="lazy" /></a>
+                <a href="https://wsrv.nl/?url={{ art.url }}&w=200&h=200"><img src="{{ art.src }}" draggable="false" loading="lazy" /></a>
             {% endfor %}
         </main>
     </body>

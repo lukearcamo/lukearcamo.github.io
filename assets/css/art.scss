@@ -2,9 +2,9 @@
 ---
 @import "base";
 
-header {
-    background-color: $black;
+body {
     color: $off-white;
+    background-color: $black;
 }
 
 main {
@@ -13,9 +13,6 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    
-    color: $off-white;
-    background-color: $black;
 
     img {
         width: 16vw;

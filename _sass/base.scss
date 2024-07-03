@@ -42,6 +42,7 @@ $off-white: #fcf1e3;
 html, body {
     padding: 0;
     margin: 0;
+    background-color: $off-white;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -84,7 +85,7 @@ h3 {
     box-sizing: border-box;
 
     font-size: 22px; // 25px;
-    font-family: Times; // "Poppins";
+    font-family: Georgia; // "Poppins", Times;
     font-weight: bold;
     line-height: 1em;
 }
