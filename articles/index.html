@@ -4,8 +4,8 @@ title: Latest
 ---
 {% for post in site.posts %}
     <section>
-        <!-- style="color: {{ post.background-color }}" -->
-        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
+        <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="date">{{ post.date | date: "%F" }}</p>
         {{ post.excerpt }}
     </section>
 {% endfor %}
