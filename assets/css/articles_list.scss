@@ -2,16 +2,25 @@
 ---
 @import "base";
 
-body { background-color: $off-white; } // in case list is empty, content may be too short and white bg shows
+body, html {
+    color: $off-white;
+    background-color: $black;
+}
 
 header {
     padding: 0 20vw;
     border-bottom: 2px solid $black;
     overflow: hidden;
     h2 { margin-top: 3em; }
+    h3 { padding-top: 1em; }
+    
+    @media (max-aspect-ratio: 1) {
+        padding: 0 15px;
+    }
 }
 
 .tags-cloud {
+    border-top: 2px solid $black;
     text-align: justify;
     font-family: Courier;
     font-weight: bold;
@@ -20,5 +29,8 @@ header {
 
 section {
     padding: 0 20vw;
-    h3 { padding-top: 1em; }
+
+    @media (max-aspect-ratio: 1) {
+        padding: 0 15px;
+    }
 }

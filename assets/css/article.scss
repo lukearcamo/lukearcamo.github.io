@@ -67,7 +67,7 @@ details {
         }
     }
     
-    @media (max-width: 800px) {
+    @media (max-aspect-ratio: 1) {
         width: 100%;
     }
 }

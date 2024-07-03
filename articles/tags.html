@@ -2,7 +2,7 @@
 layout: articles_list
 title: Tags
 ---
-<h3 id="msg">Click on a tag:</h3>
+<!-- <h3 id="msg">Click on a tag:</h3> -->
 {% for post in site.posts %}
     <section data-tags="{{ post.tags | join: ' ' }}">
         <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} — {{ post.date | date_to_string }}</a></h3>
@@ -38,7 +38,7 @@ title: Tags
     });
 
     if (!isEmpty) {
-        document.getElementById("msg").style.display = "none";
+        // document.getElementById("msg").style.display = "none";
         const tag = document.getElementById("tag-" + tagName);
         tag.style.color = "#fae9d4";
         tag.style.backgroundColor = "black";
