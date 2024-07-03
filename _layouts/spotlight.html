@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+    <head>
+        {% include head.html %}
+        <link rel="stylesheet" href="/assets/css/spotlight.css">
+    </head>
+    <body>
+        <div id="fade" class="fade"></div>
+        <script src="/assets/js/fancy-links.js" defer></script>
+        
+        <header>
+            {% include nav.html %}
+        </header>
+        
+        <main>
+            <div class="caption">
+                <h2>{{ page.title }}</h2>
+                <p class="date">{{ page.date | date: "%F" }}</p>
+                <!-- <ul id="tags">
+                    Tags:
+                    {% for tag in page.tags %}
+                        <li class="tag"><a class="fancy-link from-left" href="/art/tags?tag={{ tag }}">{{ tag }}</a></li>
+                    {% endfor %}
+                </ul> -->
+                {{ content }}
+                <h3><a class="fancy-link from-left" href="/art">← Back to art</a></h3>
+            </div>
+            <img src="{{ page.src }}" draggable="false" loading="lazy" />
+        </main>
+    </body>
+</html>
