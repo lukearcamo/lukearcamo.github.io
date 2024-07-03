@@ -5,8 +5,10 @@
 body { background-color: $off-white; } // in case list is empty, content may be too short and white bg shows
 
 header {
-    padding-bottom: 3%;
-    h2 { margin-top: 2em; }
+    padding: 0 20vw;
+    border-bottom: 2px solid $black;
+    overflow: hidden;
+    h2 { margin-top: 3em; }
 }
 
 .tags-cloud {
@@ -16,4 +18,7 @@ header {
     a { margin: 0 10px; }
 }
 
-p { padding-bottom: 1.5em; }
+section {
+    padding: 0 20vw;
+    h3 { padding-top: 1em; }
+}
