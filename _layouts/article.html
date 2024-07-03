@@ -10,10 +10,9 @@
         <div id="fade" class="fade"></div>
         <script src="/assets/js/fancy-links.js" defer></script>
 
-        <header style="background-color: {{ page.background-color }};">
-            {% include nav.html %}
+        <header>
             <h1>{{ page.title }}</h1>
-            <h3>{{ page.date | date_to_string }}</h3>
+            <p class="date">{{ page.date | date: "%F" }}</p>
             {{ sections[0] }}
             
             <ul id="tags">
@@ -22,13 +21,14 @@
                     <li class="tag"><a class="fancy-link from-left" href="/articles/tags?tag={{ tag }}">{{ tag }}</a></li>
                 {% endfor %}
             </ul>
+            {% include nav.html %}
         </header>
 
         <main>
-            <aside>
-                <h3>Contents</h3>
+            <details>
+                <summary style="list-style-type: none;"><h3>☰</h3></summary>
                 {{ sections[1] }}
-            </aside>
+            </details>
             <article>
                 {{ sections[2] }}
             </article>

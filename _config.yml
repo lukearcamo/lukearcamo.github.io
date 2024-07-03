@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Luke Arcamo" # the name of your site, e.g. ACME Corp.
 tagline: "Artist, Programmer, Engineer, Bookworm."
 description: "The work of an artist, programmer, engineer, and bookworm."
-google_site_verification: "T06_Ru7G02_xrGNJ6fXh776WmWY5q457ZoudZ9npi2M"
+repository: "lukearcamo/lukearcamo.github.io" # https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688
 
 defaults:
   -
@@ -12,6 +12,11 @@ defaults:
       type: "posts"
     values:
       excerpt_separator: "<!--split-->"
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: spotlight
 
 sass:
   style: compressed
@@ -20,6 +25,10 @@ collections:
   posts:
     output: true
     permalink: /articles/:categories/:title
+  art:
+    output: true
+    category: art
+    permalink: /art/:title
 
 plugins:
   - jekyll-sitemap

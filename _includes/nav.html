@@ -7,53 +7,13 @@
         <path mask="url(#hole)" d="m192.0 0l-48.0 0l-144.0 184.0l0 56.0l32.0 0l-32.0 48.0l48.0 0l32.0 -48.0l72.0 0l0 48.0l40.0 0l0 -216.0l-40.0 0l-96.0 128.0l-16.0 0z"/>
     </svg>
 </a>
-<div id="modal"></div>
-<div id="hamburger">☰</div>
 <ul id="navbar">
-    <li><a class="fancy-link from-right" href="/art">Art</a></li>
-    <li><a class="fancy-link from-right" href="https://github.com/lukearcamo">Code</a></li>
-    <li><a class="fancy-link from-right" href="/articles">Articles</a></li>
+    <li><h3><a class="fancy-link from-left" href="/art">Art</a></h3></li>
+    <li><h3><a class="fancy-link from-left" href="https://github.com/lukearcamo">Code</a></h3></li>
+    <li><h3><a class="fancy-link from-left" href="/articles">Articles</a></h3></li>
     <!-- <li><a class="fancy-link from-right" href="/articles/book-reviews">Book Reviews</a></li> -->
     <!-- <li><a class="fancy-link from-right" href="/articles/categories">Categories</a></li> -->
     <!-- <li><a class="fancy-link from-right" href="/articles/tags">Tags</a></li> -->
     <!-- <li><a class="fancy-link from-right" href="#contact">Contact</a></li> -->
     <!-- Resume? -->
 </ul>
-
-<script>
-    const hamburger = document.getElementById("hamburger");
-    const modal = document.getElementById("modal");
-    const listItems = document.querySelectorAll("#navbar li");
-    var toggleState = false;
-
-    hamburger.addEventListener("click", e => {
-        toggleState = !toggleState;
-        hamburger.innerText = toggleState ? "⨉" : "☰";
-        // hamburger.style.color = toggleState ? "black" : "";
-
-        if (toggleState) {
-            modal.classList.remove("closed");
-            modal.classList.add("opened");
-
-            hamburger.classList.remove("closed");
-            hamburger.classList.add("opened");
-
-            listItems.forEach(i => {
-                i.classList.remove("closed");
-                i.classList.add("opened");
-            });
-        }
-        else {
-            modal.classList.remove("opened");
-            modal.classList.add("closed");
-            
-            hamburger.classList.remove("opened");
-            hamburger.classList.add("closed");
-
-            listItems.forEach(i => {
-                i.classList.remove("opened");
-                i.classList.add("closed");
-            });
-        }
-    });
-</script>

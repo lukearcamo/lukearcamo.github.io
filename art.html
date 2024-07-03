@@ -1,39 +1,23 @@
 ---
-layout: big_links
-title: "Art"
 ---
-{% for category in site.data.artworks %}
-    <h1><a href="/art/{{ category[0] }}"
-        style="color: {{ category[1].background-color }}"
-        class="category fancy-link from-left">
-        {{ category[0] | replace: "-", " "}} →
-    </a></h1>
-{% endfor %}
-
-<!-- module so that fade does not interfere with fancy-links.js -->
-<script type="module"> 
-    const fade = document.getElementById("fade");
-
-    document.querySelectorAll(".category").forEach(item => {
-        item.addEventListener("click", e => {
-            e.preventDefault();
-
-            fade.style.left = e.clientX + "px";
-            fade.style.top = e.clientY + "px";
-
-            fade.style.animationName = "grow";
-            fade.style.animationDuration = "1s";
-            fade.style.animationTimingFunction = "ease";
-            
-            // fade.style.borderRadius = "0%";
-            fade.style.width = "100min";
-            fade.style.height = "100min";
-
-            fade.style.backgroundColor = item.style.color;
-
-            setTimeout(() => {
-                window.location.href = item.href;
-            }, 1000);
-        });
-    });
-</script>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+    <head>
+        {% include head.html %}
+        <link rel="stylesheet" href="/assets/css/art.css">
+    </head>
+    <body>
+        <div id="fade" class="fade"></div>
+        <script src="/assets/js/fancy-links.js" defer></script>
+        
+        <header>
+            {% include nav.html %}
+        </header>
+        
+        <main>
+            {% for art in site.art reversed %}
+                <a href="{{ art.url }}"><img src="{{ art.src }}" draggable="false" loading="lazy" /></a>
+            {% endfor %}
+        </main>
+    </body>
+</html>

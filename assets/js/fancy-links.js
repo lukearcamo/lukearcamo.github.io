@@ -1,6 +1,6 @@
 const fade = document.getElementById("fade");
 
-document.querySelectorAll("a.fancy-link:not(#backToTop), #logo").forEach(item => {
+document.querySelectorAll("a.fancy-link:not(#backToTop), #logo, .gallery-img").forEach(item => {
     item.addEventListener("click", e => {
         e.preventDefault();
         fade.style.left = e.clientX + "px";
@@ -10,7 +10,7 @@ document.querySelectorAll("a.fancy-link:not(#backToTop), #logo").forEach(item =>
         fade.style.animationDuration = "1s";
         fade.style.animationTimingFunction = "ease";
         fade.style.animationDirection = "normal";
-
+        
         fade.style.borderRadius = "50%";
         fade.style.width = "100vmax";
         fade.style.height = "100vmax";
