@@ -1,0 +1,38 @@
+---
+---
+@import "base";
+
+body {
+    color: $off-white;
+    background-color: $black;
+}
+
+main {
+    padding: 15px;
+    
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    img {
+        max-width: 40vw;
+        max-height: 80vh;
+        
+        object-fit: contain;
+        object-position: center top;
+    }
+    .caption {
+        max-width: 40vw;
+    }
+    @media (max-aspect-ratio: 1) {
+        img {
+            max-width: 100%;
+            max-height: unset;
+        }
+        .caption {
+            max-width: 100%;
+        }
+    }
+}

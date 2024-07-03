@@ -1,0 +1,44 @@
+---
+---
+@import "base";
+
+header {
+    background-color: $black;
+    color: $off-white;
+}
+
+main {
+    padding: 15px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    
+    color: $off-white;
+    background-color: $black;
+
+    img {
+        width: 16vw;
+        height: 16vw;
+    
+        margin: 0.2vw;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        object-fit: cover;
+        border: 0px solid transparent;
+        transition: border 0.25s;
+
+        &:hover {
+            border: 6px solid $off-white;
+        }
+    }
+
+    @media (max-aspect-ratio: 1) {
+        justify-content: center;
+        img {
+            width: 30vw;
+            height: 30vw;
+        }
+    }
+}
