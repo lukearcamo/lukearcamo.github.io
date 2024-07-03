@@ -2,7 +2,6 @@
 layout: articles_list
 title: Tags
 ---
-<!-- <h3 id="msg">Click on a tag:</h3> -->
 {% for post in site.posts %}
     <section data-tags="{{ post.tags | join: ' ' }}">
         <h3><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -10,7 +9,6 @@ title: Tags
         {{ post.excerpt }}
     </section>
 {% endfor %}
-<hr>
 <p class="tags-cloud">
     {% assign num-posts = site.posts | size | times: 1.0 %}
     {% assign sorted = site.tags | sort %}
@@ -39,8 +37,6 @@ title: Tags
     });
 
     if (!isEmpty) {
-        // document.getElementById("msg").style.display = "none";
-        document.querySelector(".tags-cloud").style.borderTop = "2px solid black";
         const tag = document.getElementById("tag-" + tagName);
         tag.style.color = "#fcf1e3";
         tag.style.backgroundColor = "black";
