@@ -16,12 +16,13 @@
             <div class="caption">
                 <h2>{{ page.title }}</h2>
                 <p class="date">{{ page.date | date: "%F" }}</p>
-                <!-- <ul id="tags">
+                <!-- Links to sorting by tags are currently not implemented yet -->
+                <ul id="tags">
                     Tags:
                     {% for tag in page.tags %}
-                        <li class="tag"><a class="fancy-link from-left" href="/art/tags?tag={{ tag }}">{{ tag }}</a></li>
+                        <li class="tag">{{ tag }}</li>
                     {% endfor %}
-                </ul> -->
+                </ul>
                 {{ content }}
                 <h3><a class="fancy-link from-left" href="/art">← Back to art</a></h3>
             </div>

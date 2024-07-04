@@ -2,24 +2,27 @@
 ---
 @import "base";
 
-.giant {
-    margin-top: 0.5em;
-    margin-left: 15px;
+header {
+    padding: 0;
+    .giant {
+        margin-top: 0.5em;
+        margin-left: 15px;
 
-    font-size: 15vw;
-    // text-shadow: -5px -5px 0px $gold, 5px 5px 0px $red;
-    line-height: 0.85em;
+        font-size: 15vw;
+        // text-shadow: -5px -5px 0px $gold, 5px 5px 0px $red;
+        line-height: 0.85em;
 
-    animation: {
-        name: slide-in-bottom;
-        duration: 2s;
-        timing-function: ease-in-out;
-        fill-mode: both;
-    }
+        animation: {
+            name: slide-in-bottom;
+            duration: 2s;
+            timing-function: ease-in-out;
+            fill-mode: both;
+        }
 
-    @media (max-aspect-ratio: 1) {
-        margin-top: 1em;
-        font-size: 22vw;
+        @media (max-aspect-ratio: 1) {
+            margin-top: 1em;
+            font-size: 22vw;
+        }
     }
 }
 
