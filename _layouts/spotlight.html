@@ -17,7 +17,7 @@
                 <h2>{{ page.title }}</h2>
                 <p class="date">{{ page.date | date: "%F" }}</p>
                 <!-- Links to sorting by tags are currently not implemented yet -->
-                <ul id="tags">
+                <ul class="tags">
                     Tags:
                     {% for tag in page.tags %}
                         <li class="tag">{{ tag }}</li>

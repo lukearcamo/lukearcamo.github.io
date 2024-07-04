@@ -15,7 +15,7 @@
             <p class="date">{{ page.date | date: "%F" }}</p>
             {{ sections[0] }}
             
-            <ul id="tags">
+            <ul class="tags">
                 Tags:
                 {% for tag in page.tags %}
                     <li class="tag"><a class="fancy-link from-left" href="/articles/tags?tag={{ tag }}">{{ tag }}</a></li>
