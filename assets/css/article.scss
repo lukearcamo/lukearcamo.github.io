@@ -9,29 +9,21 @@ mjx-container {
 }
 // .MathJax { font-size: 1.2em !important; } // Dont do this, use actual mathjax config methods within a <script>
 
-header {
-    padding: 0 20vw;
+h1 {
+    display: block;
+    margin-top: 1em;
+}
+#tags {
+    padding: 0;
+    list-style-type: none;
+    font-weight: bold;
 
-    h1 {
-        display: block;
-        margin-top: 1em;
-    }
-    #tags {
-        padding: 0;
-        list-style-type: none;
-        font-weight: bold;
-    
-        li {
-            display: inline-block;
-            padding: 0 0.5em;
-            border-left: 2px solid currentColor;
-            &:first-of-type { border: none; }
-            font-family: Courier;
-        }
-    }
-
-    @media (max-aspect-ratio: 1) {
-        padding: 0 15px;
+    li {
+        display: inline-block;
+        padding: 0 0.5em;
+        border-left: 2px solid currentColor;
+        &:first-of-type { border: none; }
+        font-family: Courier;
     }
 }
 
@@ -73,7 +65,7 @@ main {
         // column-count: 2;
         // text-align: justify;
 
-        a { // Should this be in base, p > a, to include links in art captions, if there are even any?
+        a {
             @extend .text-link;
         }
         table {

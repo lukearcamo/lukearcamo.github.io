@@ -36,7 +36,7 @@ $off-white: #fcf1e3;
 }
 
 // ================================================================================================================================
-// Resets for pesky default html tag styles
+// Global container styles
 // ================================================================================================================================
 
 html, body {
@@ -55,18 +55,20 @@ header {
     min-height: 75px;
 
     position: relative; // required in order to have children with position: absolute
+
+    padding: 0 20vw;
     border-bottom: 2px solid currentColor;
     box-sizing: border-box;
 
     overflow: hidden; // Include header margins within height
+
+    @media (max-aspect-ratio: 1) {
+        padding: 0 15px;
+    }
 }
 
-hr { border: 1px solid black; }
-
-details summary { cursor: pointer; }
-
 // ================================================================================================================================
-// Global text styles + resets
+// Global text styles
 // ================================================================================================================================
 
 h1 {
@@ -102,6 +104,10 @@ p, ul, ol, details, blockquote, b {
     font-family: Georgia; // Times;
     line-height: 1.15em;
 }
+
+hr { border: 1px solid black; }
+
+details summary { cursor: pointer; }
 
 // ================================================================================================================================
 // Miscellaneous

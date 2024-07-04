@@ -27,6 +27,9 @@ main {
     }
     .caption {
         max-width: 40vw;
+        a:not(h3 > a) {
+            @extend .text-link;
+        }
     }
     @media (max-aspect-ratio: 1) {
         img {
