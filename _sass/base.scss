@@ -42,15 +42,23 @@ $off-white: #fcf1e3;
 html, body {
     padding: 0;
     margin: 0;
+
+    color: $black;
+
     background-color: $off-white;
+
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 header {
-    position: relative; // required in order to have children with position: absolute
-    box-sizing: border-box;
     min-height: 75px;
+
+    position: relative; // required in order to have children with position: absolute
+    border-bottom: 2px solid currentColor;
+    box-sizing: border-box;
+
+    overflow: hidden; // Include header margins within height
 }
 
 hr { border: 1px solid black; }

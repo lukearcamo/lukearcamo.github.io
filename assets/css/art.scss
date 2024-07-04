@@ -7,16 +7,19 @@ body, html {
     background-color: $black;
 }
 
+header { border: none; }
+
 main {
-    padding: 15px 0;
+    padding: 10px;
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 10px;
 
     img {
-        width: 16vw;
-        height: 16vw;
+        width: 15vw;
+        height: 15vw;
     
         margin: 0.2vw;
         border-radius: 10px;
@@ -34,10 +37,9 @@ main {
     }
 
     @media (max-aspect-ratio: 1) {
-        justify-content: center;
         img {
-            width: 30vw;
-            height: 30vw;
+            width: 28vw;
+            height: 28vw;
         }
     }
 }
