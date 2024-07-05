@@ -41,6 +41,7 @@ window.addEventListener("pageshow", e => {
         fade.style.borderRadius = "";
         fade.style.width = "";
         fade.style.height = "";
+        fade.style.border = "none";
 
         fade.style.backgroundColor = "";
     }
