@@ -4,12 +4,17 @@
 
 header {
     padding: 0;
+    
+    color: $white;
+    
+    background-color: $black;
+
     .giant {
         margin-top: 0.5em;
         margin-left: 15px;
 
+        color: $accent;
         font-size: 15vw;
-        // text-shadow: -5px -5px 0px $gold, 5px 5px 0px $red;
         line-height: 0.85em;
 
         animation: {
@@ -31,7 +36,7 @@ main {
 
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
+    align-items: stretch;
 
     overflow: hidden;
 
@@ -48,20 +53,8 @@ main {
             fill-mode: both;
         }
     }
-    .about {
-        ul {
-            padding: 0;
-    
-            li {
-                display: inline-block;
-                
-                transition: transform 0.2s;
-                &:hover { transform: scale(1.2); }
-            }
-        }
-        h2 {
-            line-height: 1.5em;
-        }
+    .about h2 {
+        line-height: 1.5em;
     }
     .date { margin: 0; }
     
@@ -77,7 +70,7 @@ main {
         section {
             width: 100%;
             animation-name: slide-in-left;
-            border-bottom: 2px solid black;
+            border-bottom: 2px solid $black;
         }
     }
 }
@@ -88,15 +81,14 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     align-content: start;
+    gap: 10px;
 
     list-style-type: none;
 
     li {
         width: 70px;
         
-        display: block;
-        padding: 10px;
-
+        font-size: 13px;
         line-height: 1em;
         text-align: center;
 

@@ -7,7 +7,6 @@
     <body>
         {% assign sections = content | split: "<!--split-->" %}
         
-        <div id="fade" class="fade"></div>
         <script src="/assets/js/fancy-links.js" defer></script>
 
         <header>
@@ -18,14 +17,14 @@
             <ul class="tags">
                 Tags:
                 {% for tag in page.tags %}
-                    <li class="tag"><a class="fancy-link from-left" href="/articles/tags?tag={{ tag }}">{{ tag }}</a></li>
+                    <li><a href="/articles/tags?tag={{ tag }}">{{ tag }}</a></li>
                 {% endfor %}
             </ul>
             {% include nav.html %}
         </header>
 
         <main>
-            <details>
+            <details id="toc">
                 <summary style="list-style-type: none;"><h3>☰</h3></summary>
                 {{ sections[1] }}
             </details>
@@ -34,8 +33,6 @@
             </article>
         </main>
 
-        <footer>
-            {% include footer.html %}
-        </footer>
+        {% include footer.html %}
     </body>
 </html>

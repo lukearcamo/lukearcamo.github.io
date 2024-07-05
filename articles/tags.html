@@ -4,7 +4,7 @@ title: Tags
 ---
 {% for post in site.posts %}
     <section data-tags="{{ post.tags | join: ' ' }}">
-        <b><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></b>
+        <a href="{{ post.url }}">{{ post.title }} →</a>
         <p class="date">{{ post.date | date: "%F" }}</p>
         {{ post.excerpt }}
     </section>
@@ -15,7 +15,7 @@ title: Tags
     {% for tag in sorted %}
         <a id="tag-{{ tag[0] }}"
             style="font-size: {{ tag[1] | size | divided_by: num-posts | times: 5.0 | plus: 0.75 }}em;"
-            class="tag fancy-link from-left" href="tags?tag={{ tag[0] }}">{{ tag[0] }}</a>
+            href="tags?tag={{ tag[0] }}">{{ tag[0] }}</a>
     {% endfor %}
 </div>
 
@@ -38,7 +38,6 @@ title: Tags
 
     if (!isEmpty) {
         const tag = document.getElementById("tag-" + tagName);
-        tag.style.color = "#fcf1e3";
-        tag.style.backgroundColor = "black";
+        tag.className = "highlighted";
     }
 </script>

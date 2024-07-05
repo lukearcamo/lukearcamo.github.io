@@ -3,11 +3,9 @@
 @import "base";
 
 body, html {
-    color: $off-white;
+    color: $white;
     background-color: $black;
 }
-
-header { border: none; }
 
 main {
     padding: 10px;
@@ -17,29 +15,29 @@ main {
     justify-content: center;
     gap: 10px;
 
-    img {
+    .gallery-img {
         width: 15vw;
         height: 15vw;
-    
-        margin: 0.2vw;
+
         border-radius: 10px;
         box-sizing: border-box;
-
-        background-color: #26303C;
-
-        object-fit: cover;
         border: 0px solid transparent;
         transition: border 0.25s;
 
-        &:hover {
-            border: 6px solid $off-white;
-        }
-    }
+        background-color: $accent;
 
-    @media (max-aspect-ratio: 1) {
-        img {
+        &:hover {
+            border: 6px solid $accent;
+        }
+        @media (max-aspect-ratio: 1) {
             width: 28vw;
             height: 28vw;
         }
+    }
+    img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
     }
 }

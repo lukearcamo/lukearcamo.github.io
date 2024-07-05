@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="/assets/css/spotlight.css">
     </head>
     <body>
-        <div id="fade" class="fade"></div>
         <script src="/assets/js/fancy-links.js" defer></script>
         
         <header>
@@ -14,17 +13,17 @@
         
         <main>
             <div class="caption">
+                <a class="fancy-link" href="/art">← Back to gallery</a>
                 <h2>{{ page.title }}</h2>
                 <p class="date">{{ page.date | date: "%F" }}</p>
+                {{ content }}
                 <!-- Links to sorting by tags are currently not implemented yet -->
                 <ul class="tags">
                     Tags:
                     {% for tag in page.tags %}
-                        <li class="tag">{{ tag }}</li>
+                        <li>{{ tag }}</li>
                     {% endfor %}
                 </ul>
-                {{ content }}
-                <h3><a class="fancy-link from-left" href="/art">← Back to art</a></h3>
             </div>
             <img src="{{ page.src }}" draggable="false" loading="lazy" />
         </main>

@@ -3,11 +3,9 @@
 @import "base";
 
 body, html {
-    color: $off-white;
+    color: $white;
     background-color: $black;
 }
-
-header { border: none; }
 
 main {
     padding: 15px;
@@ -18,18 +16,18 @@ main {
     align-items: flex-start;
     gap: 30px;
 
+    h2 {
+        margin-top: 0.5em;
+    }
+    .caption {
+        max-width: 40vw;
+    }
     img {
         max-width: 40vw;
         max-height: 80vh;
         
         object-fit: contain;
         object-position: center top;
-    }
-    .caption {
-        max-width: 40vw;
-        a:not(h3 > a) {
-            @extend .text-link;
-        }
     }
     @media (max-aspect-ratio: 1) {
         img {

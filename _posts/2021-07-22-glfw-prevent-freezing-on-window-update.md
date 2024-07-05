@@ -117,7 +117,6 @@ int main() {
 {% endhighlight %}
 
 ## 3. Resources
-
-GLFW window reference — [https://www.glfw.org/docs/latest/group__window.html](https://www.glfw.org/docs/latest/group__window.html)
-GLFW context reference — [https://www.glfw.org/docs/latest/group__context.html](https://www.glfw.org/docs/latest/group__context.html)
-Multithreading GLFW forum discussion — [https://discourse.glfw.org/t/multithreading-glfw/573](https://discourse.glfw.org/t/multithreading-glfw/573)
+* GLFW window reference — [https://www.glfw.org/docs/latest/group__window.html](https://www.glfw.org/docs/latest/group__window.html)
+* GLFW context reference — [https://www.glfw.org/docs/latest/group__context.html](https://www.glfw.org/docs/latest/group__context.html)
+* Multithreading GLFW forum discussion — [https://discourse.glfw.org/t/multithreading-glfw/573](https://discourse.glfw.org/t/multithreading-glfw/573)

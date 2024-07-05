@@ -4,7 +4,7 @@ title: "Book Reviews"
 ---
 {% for post in site.categories.book-reviews %}
     <section>
-        <b><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }}</a></b>
+        <b><a class="fancy-link from-left" href="{{ post.url }}">{{ post.title }} →</a></b>
         <p class="date">{{ post.date | date: "%F" }}</p>
         {{ post.excerpt }}
     </section>

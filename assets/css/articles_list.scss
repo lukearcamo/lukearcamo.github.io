@@ -4,6 +4,7 @@
 
 header {
     padding-bottom: 15px;
+    border-bottom: 2px solid $black;
     h1 {
         margin-top: 1em;
         margin-bottom: 15px;
@@ -15,10 +16,15 @@ header {
     border-top: 2px solid black;
 
     text-align: justify;
-    font-family: Courier;
+    font-family: $mono-font;
     font-weight: bold;
 
     a { margin: 0 10px; }
+}
+
+.highlighted {
+    background-color: $accent;
+    color: $white;
 }
 
 section {

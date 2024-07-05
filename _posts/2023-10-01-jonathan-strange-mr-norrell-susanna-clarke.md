@@ -1,9 +1,9 @@
 ---
-title: "<i>Jonathan Strange & Mr Norrell by Susanna Clarke</i> by Susanna Clarke"
+title: "<i>Jonathan Strange & Mr Norrell</i> by Susanna Clarke"
 category: book-reviews
 tags: fantasy historical british multiperspective
 ---
-★★★★☆ — Set in early-1800s England, the story is centered upon the two titular magicians who have opposing ideas about the way magic should be used. But a deal with a dangerous entity turns awry, they decide to enlist the help of an even more powerful mysterious person.
+★★★★☆ — Set in early-1800s England, the story is centered upon the two titular magicians who have opposing ideas about the way magic should be used. But when a deal with a dangerous entity turns awry, they decide to enlist the help of an even more powerful mysterious person.
 
 <!--split-->
 
