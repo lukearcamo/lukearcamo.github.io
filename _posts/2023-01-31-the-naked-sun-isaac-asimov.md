@@ -1,7 +1,7 @@
 ---
 title: "<i>The Naked Sun</i> by Isaac Asimov"
 category: book-reviews
-tags: scifi mystery crime space thriller dystopian sociology speculative
+tags: sci-fi mystery crime space thriller dystopian sociology speculative
 ---
 ★★★☆☆ — The sequel to Asimov's *The Caves of Steel*, set in the same future in which the people of Earth have buried themselves in dense, underground megacities. There has been a murder on one of the Outer Worlds, and its authorities once again want Detective Baley and his robot partner to investigate.<br><br>Solaria is the polar opposite of Earth. With an extremely low population density — each of the 20,000 inhabitants own an estate — they have developed a post-scarcity, robot-driven society, with a cultural feature that makes this murder baffling: they are too disgusted to even approach each other.
 

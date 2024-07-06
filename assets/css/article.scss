@@ -1,3 +1,13 @@
+---
+---
+@import "base";
+
+mjx-container {
+	overflow-x: auto;
+	overflow-y: hidden;
+	max-width: 100%;
+}
+// .MathJax { font-size: 1.2em !important; } // Dont do this, use actual mathjax config methods within a <script>
 
 header {
     border-bottom: 2px solid $black;
@@ -21,9 +31,12 @@ main {
     }
     ul {
         list-style-type: none;
-        a { margin-left: -40px; }
+        padding-inline-start: 0px;
 
-        li li { font-size: 0.85em; }
+        ul {
+            padding-inline-start: 20px;
+            font-size: 0.85em;
+        }
     }
     
     @media (max-aspect-ratio: 1) {
@@ -84,5 +97,5 @@ footer {
         &:visited { color: $accent; }
         @extend .hover-grow;
     }
-    svg { fill: $white; } // $accent;
+    svg { fill: $accent; } // $accent;
 }

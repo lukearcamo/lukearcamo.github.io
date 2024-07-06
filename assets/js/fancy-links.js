@@ -1,7 +1,7 @@
-// const fade = document.getElementById("fade");
-const fade = document.createElement("div");
-fade.id = "fade";
-document.body.prepend(fade);
+const fade = document.getElementById("fade");
+// const fade = document.createElement("div");
+// fade.id = "fade";
+// document.body.prepend(fade);
 
 document.querySelectorAll("a:not(#backToTop, #toc a), #logo, .gallery-img").forEach(item => {
     item.addEventListener("click", e => {
@@ -15,8 +15,8 @@ document.querySelectorAll("a:not(#backToTop, #toc a), #logo, .gallery-img").forE
         fade.style.animationDirection = "normal";
         
         fade.style.borderRadius = "50%";
-        fade.style.width = "100vmax";
-        fade.style.height = "100vmax";
+        fade.style.width = "110vmax";
+        fade.style.height = "110vmax";
         fade.style.border = "100px solid #E94F37";
 
         fade.style.backgroundColor = "black"; // for art category pages

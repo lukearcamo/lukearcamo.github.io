@@ -1,7 +1,7 @@
 ---
 title: "<i>Do Androids Dream of Electric Sheep?</i> by Philip K. Dick"
 category: book-reviews
-tags: scifi speculative dystopian classic post-apocalyptic psychological
+tags: sci-fi speculative dystopian classic post-apocalyptic psychological
 ---
 ★★★★☆ — If it looks like a human, and behaves like a human, is it human? This is one of the many difficult questions Rick Deckard asks himself as he is tasked with "retiring" rogue androids in a polluted, irradiated Earth populated by a society devoid of any hope and barely holding on to the basic concept of empathy.
 

@@ -1,7 +1,7 @@
 ---
 title: "<i>The Birthday of the World and Other Stories</i> by Ursula K. Le Guin"
 category: book-reviews
-tags: scifi sociology adventure romance speculative multiperspective fantasy
+tags: sci-fi sociology adventure romance speculative multiperspective fantasy
 ---
 ★★★★☆ — “These seven stories share a pattern: they exhibit in one way or another, from inside or through an observer (who is liable to go native), people whose society differs from ours, even whose physiology may differ from ours, but who feel the way we do. First to create difference—to establish strangeness—then to let the fiery arc of human emotion leap and close the gap: this acrobatics of the imagination fascinates and satisfies me as almost no other.”
 

@@ -1,7 +1,7 @@
 ---
 title: "<i>The Left Hand of Darkness</i> by Ursula K. Le Guin"
 category: book-reviews
-tags: scifi soft-sf fantasy feminist classic speculative space adventure favorite multiperspective aliens
+tags: sci-fi soft-sf fantasy feminist classic speculative space adventure favorite multiperspective aliens
 ---
 ★★★★★ — Genly Ai is an envoy of an interplanetary consortium sent to invite the planet Winter. Though its inhabitants are human like the other planets, they have one fundamental difference: ambisexuality. Each month, they enter *kemmer* briefly as male or female, only to return to their default androgynous form. In spite of this having such profound cultural implications, Ai grows to find himself as similar to them as he is different.<br><br>But this doesn't make his job any easier. He is a distrusted outsider in a harsh icy world rife with political division. Only one other person sees the consortium as a way out of their age-old feud — someone who believes in the dream enough to abandon it.
 

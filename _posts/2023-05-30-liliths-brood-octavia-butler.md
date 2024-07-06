@@ -1,7 +1,7 @@
 ---
 title: "<i>Lilith's Brood</i> by Octavia Butler"
 category: book-reviews
-tags: speculative post-apocalyptic dystopia aliens sociology scifi thriller african-american
+tags: speculative post-apocalyptic dystopia aliens sociology sci-fi thriller african-american
 ---
 ★★★★☆ — Lilith Iyapo wakes up in a pristine cell with vague memories of her husband and child dying in an car accident, and of war decimating the Earth. Eventually, she learns that what remained of humanity, including her was rescued by the Oankali, powerful, grotesque, and seemingly benevolent genetic engineers. But this favor comes at a cost. Should humanity die with integrity, having preserved its physical and cultural identity? Or should humans ensure the survival of their children in the new world, even if they become unrecognizable?
 

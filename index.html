@@ -18,11 +18,8 @@
             <section class="about">
                 <h2>About</h2>
                 {% assign year_fraction = "now" | date: "%j" | divided_by: 365 %}
-                <blockquote>
-                    <i>“But I am an artist too, and therefore a liar. Distrust everything I say. I am telling the truth.”</i> —Ursula K. Le Guin<br><br>
-                </blockquote>
                 <p>
-                    Hello! My name is Luke, and I am a {{ "now" | date: "%y" | plus: year_fraction | minus: 4.712 | round }} year old chemical engineering student from Toronto.
+                    Hello! My name is Luke, and I am a {{ "now" | date: "%y" | plus: year_fraction | minus: 4.712 | round }}-year-old chemical engineering student from Toronto.
                     I created this website to showcase the projects I have worked on throughout my life, personal or professional, spanning art and science.
                 </p>
                 {% include contact.html %}
@@ -36,8 +33,8 @@
             </section>
         
             <section class="code">
-                <h2><a class="fancy-link" href="https://github.com/lukearcamo?tab=repositories">Code ↗</a></h2>
-                <p>A link to my GitHub. It is incomplete, but still a good representative sample of my unpublished projects. Key interests include web design and 3D graphics using WebGL/OpenGL (raytracing/raymarching, shaders, procedural generation).</p>
+                <h2><a class="fancy-link" href="https://github.com/lukearcamo?tab=repositories">Code <span style="font-family: monospace">↗</span></a></h2>
+                <p>A link to my GitHub. It is incomplete, but still a good representative sample of my unpublished projects. Key interests include web design and 3D graphics using WebGL & OpenGL (raytracing, raymarching, shaders, procedural generation).</p>
                 <h3>Familiar with:</h3>
                 <ul class="languages-list">
                     <li><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"/>Python</li>
@@ -56,7 +53,7 @@
                 <p>Coding discussions, book reviews, and engineering notes. Mild spoilers in book reviews, though I try to hide most of it.</p>
                 <details><summary>Preferences:</summary>
                     <p>
-                        I generally like all of the stuff I read, whether that's because I choose carefully, appreciate writing skill, or the fact that hatred is exhausting.
+                        I generally like all of the stuff I read, whether that's due to my careful selection, appreciation for writing skill, or simply because I find negativity exhausting.
                         However, here are some trends I have identified in my taste:
                     </p>
                     <ul>

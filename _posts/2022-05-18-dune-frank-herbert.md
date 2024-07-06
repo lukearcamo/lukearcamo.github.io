@@ -1,7 +1,7 @@
 ---
 title: "<i>Dune</i> by Frank Herbert"
 category: book-reviews
-tags: scifi soft-sf classic space political fantasy adventure favorite sociology
+tags: sci-fi soft-sf classic space political fantasy adventure favorite sociology
 ---
 ★★★★★ — Spice is a rare nootropic drug only found on the desert planet Arrakis, territory of giant sandworms and the native Fremen. Yet its promises of health, longevity, prescience, interstellar navigation, and death upon withdrawal make it the most economically valuable commodity in the Imperium.<br><br>When Arrakis is given to House Atreides by the Emperor, its former owners the Harkonnens will stop at nothing to win it back. Caught in the center of imperial politics, Fremen culture, and a millenia-old shadow government, heir Paul Atreides discovers that the fate of humanity rests in his hands, and in the mysterious Golden Path he must maneuver it into.
 

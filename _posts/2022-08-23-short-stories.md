@@ -1,7 +1,7 @@
 ---
 title: "Short stories I've read"
 category: book-reviews
-tags: scifi psychological tragedy
+tags: sci-fi psychological tragedy
 ---
 Reviews of various short stories, not long enough to warrant new posts like the previous high school books article.
 

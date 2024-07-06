@@ -1,7 +1,7 @@
 ---
 title: "<i>Solaris</i> by Stanisław Lem"
 category: book-reviews
-tags: favorite scifi classic psychological horror romance translation space sociology
+tags: favorite sci-fi classic psychological horror romance translation space sociology
 ---
 ★★★★★ — Kelvin arrives at the station on the planet Solaris, surprised to find it and its two lone inhabitants in disarray. He is a psychologist who will be joining them to study its ocean. Is it alive? Is it real? What does it say? Kelvin is the latest among the line of scientists to ask themselves these questions and fail to answer them, confounded by the ocean's behaviour. As it ebbs and flows into striking forms, some recognizable, others meaningless yet beautiful, Kelvin discovers that he knows as little about the universe as he does about himself.   
 
