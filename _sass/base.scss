@@ -219,6 +219,7 @@ a {
         padding: 0 0.5em;
         border-left: 2px solid currentColor;
         &:first-of-type { border: none; }
+        a:visited { color: $accent; }
     }
 
     animation: {
