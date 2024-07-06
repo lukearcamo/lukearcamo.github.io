@@ -1,8 +1,8 @@
 url: "https://lukearcamo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Luke Arcamo" # the name of your site, e.g. ACME Corp.
-tagline: "Artist, Programmer, Engineer, Bookworm."
-description: "The work of an artist, programmer, engineer, and bookworm."
+tagline: "Artist, Programmer, Engineer, Reader."
+description: "The work of an artist, programmer, engineer, and reader."
 repository: "lukearcamo/lukearcamo.github.io" # https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688
 
 defaults:
