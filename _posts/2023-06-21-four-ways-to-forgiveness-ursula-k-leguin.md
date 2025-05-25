@@ -5,7 +5,7 @@ category: book-reviews
 tags: scifi romance political feminist multiperspective war soft-sf space speculative
 background-color: "#837786"
 ---
-★★★★☆ — Werel and Yeowe are two planets with a long, painful history. Three centuries ago, its dark blue ethnic groups began the enslavement of lighter-skinned people. But this complex history is better understood on a smaller, human scale. In these four stories, different characters learn about true freedom, heal after the War of Liberation, and understand the place of their local world within the larger universe.
+★★★★★ — Werel and Yeowe are two planets with a long, painful history. Three centuries ago, its dark blue ethnic groups began the enslavement of lighter-skinned people. But this complex history is better understood on a smaller, human scale. In these four stories, different characters learn about true freedom, heal after the War of Liberation, and understand the place of their local world within the larger universe.
 
 <!--split-->
 
